@@ -175,27 +175,6 @@ Notes:
 - Use `sbp-monetary-policy-statement` for a specific MPC meeting's policy rate decision or rationale.
 - Use `sbp-financial-soundness-indicators` for bank-wise NPL, CAR, or profitability ratios.
 - Use `sbp-financial-stability-review` for systemic risk narrative on banks, NBFIs, or insurance.
-- Use `pide-research-reports` for independent PIDE working papers or policy viewpoints.
-- Use `pkr-remittances-tracker` for monthly remittances by sending country/corridor.
-- Use `secp-insurance-industry-statistics` for insurer-wise premiums, assets, or takaful data.
-- Use `secp-company-registry` for a company's registration status, incorporation date, or category.
-- Use `pta-telecom-indicators` for subscriber, teledensity, or operator-level telecom revenue data.
-- Use `unhcr-pakistan-refugee-data` for registered Afghan refugee or PoR population trends.
-- Use `beoe-labour-migration-report` for overseas worker deployment by destination or occupation.
-- Use `nepra-state-of-industry` for generation capacity, fuel mix, tariffs, or T&D losses.
-- Use `nepra-tariff-determinations` for a specific DISCO or generation company tariff order.
-- Use `igcep-capacity-plan` for long-term generation capacity expansion forecasts.
-- Use `ogra-petroleum-industry-report` for refining, marketing, or POL consumption statistics.
-- Use `ogra-pol-price-notifications` for fortnightly petrol/diesel/kerosene price buildup.
-- Use `irsa-reservoir-data` for Tarbela/Mangla/Chashma reservoir levels, inflows, or discharges.
-- Use `tdap-trade-reports` for granular monthly export-import detail by product and market.
-- Use `sindh-development-statistics` for Sindh-specific socioeconomic indicators.
-- Use `kp-open-data` for discovering or downloading KP government open datasets.
-- Use `pcaa-statistical-digest` for airport- or airline-wise passenger and cargo traffic.
-- Use `pakistan-railways-yearbook` for passenger/freight volumes or financial performance.
-- Use `port-qasim-cargo-reports` for vessel arrivals or cargo throughput by commodity type.
-- Use `i2i-startup-ecosystem-report` for startup funding trends or ecosystem player mapping.
-- Use `sbp-ict-exports-special-section` for IT/ICT export deep-dive analysis.
 
 ## Contribution Guide
 
