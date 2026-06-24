@@ -3,7 +3,7 @@
 Pakistan Agent Skills is a repository of reusable skills for AI agents working on Pakistan-specific data, research, and analysis tasks. The repository currently covers two focused areas:
 
 - `psxdata` package workflows for Pakistan Stock Exchange data
-- Pakistan Economic Survey 2025-26 document analysis derived from the survey PDF
+- Pakistan Economic Survey 2025-26 document analysis derived from the survey PDF.
 
 ## Current Skills
 
