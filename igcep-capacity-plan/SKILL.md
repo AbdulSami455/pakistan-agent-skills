@@ -23,6 +23,13 @@ Use this skill for questions about Pakistan's long-term generation capacity expa
 - identifying which power projects are designated "committed" versus "candidate" in a given plan
 - describing the least-cost generation mix recommended for a future horizon
 
+## When Not to Use This Skill
+
+- For realized, historical capacity and generation performance — use `nepra-state-of-industry` instead.
+- For the actual tariff awarded to a specific project — use `nepra-tariff-determinations` instead; IGCEP only carries indicative cost inputs.
+- For the Pakistan Economic Survey's narrative-level energy chapter — use `pes-infrastructure-digital-and-climate` instead.
+- For day-to-day operational hydrology or reservoir levels — use `irsa-reservoir-data` instead.
+
 ## Routing Rules
 
 - Use this skill for forward-looking, multi-year capacity planning. Use `nepra-state-of-industry` for realized, historical capacity and generation performance.

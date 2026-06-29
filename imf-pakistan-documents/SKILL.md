@@ -24,6 +24,13 @@ Use this skill for IMF documents specific to Pakistan: Article IV consultation r
 - comparing the IMF's projections (growth, inflation, fiscal) with the government's own PES figures for the same period
 - tracing whether a specific structural benchmark was met, missed, or rephased across consecutive reviews
 
+## When Not to Use This Skill
+
+- For the government's own narrative or outturns for the same period — prefer the relevant `pes-*` skill.
+- For SBP's own monetary or external-sector narrative — prefer `sbp-annual-report` or `sbp-monetary-policy-statement`.
+- For the federal budget text itself — use `federal-budget-documents`; use this skill only for the program target the budget is meant to satisfy.
+- For Pakistan's debt or fiscal position from the government's own perspective — use `pes-fiscal-financial-and-debt` instead.
+
 ## Routing Rules
 
 - Use this skill when the question specifically needs the IMF's own assessment, program conditionality, or IMF staff projections.
