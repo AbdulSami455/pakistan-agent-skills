@@ -2,7 +2,10 @@
 
 ## Source
 
-- Pakistan Railways, Ministry of Railways, Government of Pakistan; check the Ministry/Pakistan Railways official website for the publications section hosting the Yearbook.
+- Pakistan Railways, Ministry of Railways, Government of Pakistan
+- Pakistan Railways official website: `https://www.pakistanrailways.gov.pk`
+- Ministry of Railways: `https://www.railways.gov.pk`
+- Yearbooks and publications are typically hosted under the "Publications" or "Statistics" section of the Pakistan Railways website
 
 ## Structure Notes
 

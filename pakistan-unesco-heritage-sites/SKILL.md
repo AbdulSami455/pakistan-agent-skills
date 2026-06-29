@@ -51,4 +51,6 @@ Pakistan also maintains a Tentative List of sites nominated for future inscripti
 
 ## Reference
 
-- UNESCO World Heritage Centre's official list and Tentative List pages for Pakistan are the authoritative source; treat this skill's content as a convenience snapshot, not the system of record.
+- UNESCO World Heritage Centre's official list: `https://whc.unesco.org/en/statesparties/pk`
+- UNESCO Tentative List (Pakistan): `https://whc.unesco.org/en/tentativelists/state=pk`
+- These are the authoritative source; treat this skill's content as a convenience snapshot, not the system of record.
