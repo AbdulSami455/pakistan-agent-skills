@@ -3,7 +3,8 @@
 ## Source
 
 - Pakistan Bureau of Statistics (PBS), Population & Housing Census bulletins (most recently the Digital Census)
-- Published at `pbs.gov.pk` in stages: provisional results followed by detailed final tables
+- Published at `https://www.pbs.gov.pk` in stages: provisional results followed by detailed final tables
+- Census-specific products: `https://www.pbs.gov.pk/population-census`
 
 ## Document Structure
 
