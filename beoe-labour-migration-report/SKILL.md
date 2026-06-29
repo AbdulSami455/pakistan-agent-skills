@@ -66,4 +66,6 @@ Typical report structure includes:
 
 ## Reference
 
-- The Bureau of Emigration & Overseas Employment publishes the "Labour Migration Report" on its official website/portal; table structure and category definitions can vary by year.
+- The Bureau of Emigration & Overseas Employment publishes the "Labour Migration Report" on its official website: `https://beoe.gov.pk`
+- Reports and statistics: `https://beoe.gov.pk/Labour-Migration-Report` (under the "Publications" or "Statistics" section)
+- Table structure and category definitions can vary by year.

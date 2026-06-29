@@ -52,6 +52,12 @@ Use this skill for FBR's notified property valuation tables, issued through SROs
 - Check whether the rate cited is for residential, commercial, or a combined category.
 - Confirm the unit of measurement before using the rate in any calculation.
 
+## Reference
+
+- FBR official website: `https://www.fbr.gov.pk`
+- Property valuation SROs and notifications: `https://www.fbr.gov.pk/SROs/1814` (under the "Legal" or "SROs" section)
+- Current valuation tables: `https://www.fbr.gov.pk/Property-Valuation/1805` (under the "Revenue" or "Property Valuation" section)
+
 ## Common Pitfalls
 
 - Confusing FBR notified valuation rates with provincial DC rates, which serve a different (stamp duty) purpose and are typically lower.
