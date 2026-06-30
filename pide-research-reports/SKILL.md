@@ -53,6 +53,11 @@ Use this skill for Pakistan Institute of Development Economics (PIDE) working pa
 - Check whether the paper presents a finding as preliminary/exploratory or as a robust conclusion.
 - Confirm policy recommendations are clearly separated from the empirical analysis section.
 
+## Reference
+
+- PIDE website: `https://www.pide.org.pk`
+- Working papers and policy reports: `https://www.pide.org.pk/research/` (under "Publications" or "Research")
+
 ## Common Pitfalls
 
 - Treating an individual researcher's working paper as an official PIDE institutional position.

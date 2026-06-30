@@ -53,6 +53,12 @@ Use this skill for SBP's monthly workers' remittances data, published as structu
 - Check whether a cumulative period figure is an official SBP year-to-date total or a manually summed total.
 - Confirm currency units (USD) and note if any rupee conversion was introduced and on what exchange-rate basis.
 
+## Reference
+
+- State Bank of Pakistan: `https://www.sbp.org.pk`
+- Remittances data: `https://www.sbp.org.pk/ecodata/index2.asp` (Economic Data section, Workers' Remittances)
+- Published as monthly CSV/Excel tables; table structure is consistent but column headers may be revised.
+
 ## Common Pitfalls
 
 - Confusing fiscal-year-to-date sums with calendar-year sums when aggregating monthly remittance data.
