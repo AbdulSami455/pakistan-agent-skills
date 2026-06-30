@@ -81,4 +81,7 @@ df = psxdata.stocks("ENGRO", start="2024-01-01", end="2024-12-31")
 - Off-by-one date filtering can quietly drop the first or last trading day.
 - HTML column reordering can corrupt fields if parsing still assumes fixed positions.
 - Duplicate-date merges can hide upstream parsing bugs if deduplication is done too early.
-- String cleanup on numeric columns can fail differently across prices, volumes, and empty cells.
+- String cleanup on numeric columns can fail differently across prices, volumes, and empty columns.
+- Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
+- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/psxdata/psxdata`)
+- Historical OHLCV data sourced from PSX's daily market activity archives.

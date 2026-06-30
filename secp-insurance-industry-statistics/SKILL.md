@@ -60,3 +60,9 @@ Use this skill for the Securities and Exchange Commission of Pakistan's (SECP) a
 - Confusing gross written premium with net premium after reinsurance cessions.
 - Treating takaful statistics as part of conventional insurer totals when SECP reports them separately.
 - Using outdated insurer names after a merger or rebranding has occurred.
+
+## Reference
+
+- SECP official website: `https://www.secp.gov.pk`
+- Insurance Industry Statistics: `https://www.secp.gov.pk/insurance/` (under the "Insurance" or "Publications" section)
+- SECP annual Insurance Industry Statistics report is typically hosted as a downloadable PDF under the Insurance Division.

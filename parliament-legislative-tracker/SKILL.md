@@ -66,3 +66,10 @@ There is **no confirmed formal API** for the National Assembly (NA) bill-trackin
 - Confusing a Senate-originated bill with an NA-originated bill that has been transmitted to the Senate.
 - Treating committee referral as equivalent to committee approval/reporting-back.
 - Citing a bill number without specifying which assembly session/year it belongs to, since numbering can reset per session.
+
+## Source
+
+- National Assembly of Pakistan: `https://na.gov.pk`
+- Senate of Pakistan: `https://senate.gov.pk`
+- Pakistan Legislative Tracker (openparliament.pk): `https://openparliament.pk`
+- National Assembly bill tracking: `https://na.gov.pk/en/bills.php`

@@ -2,7 +2,9 @@
 
 ## Source
 
-- Port Qasim Authority (PQA); check PQA's official website for daily shipping/cargo reports or statistical summaries.
+- Port Qasim Authority (PQA)
+- PQA official website: `https://www.pqa.gov.pk`
+- Daily shipping notices, cargo statistics, and trade data published on the PQA website under "Shipping" or "Trade & Traffic" sections
 
 ## Typical Report Fields
 

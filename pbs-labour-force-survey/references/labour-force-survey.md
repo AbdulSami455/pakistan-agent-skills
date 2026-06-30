@@ -4,6 +4,8 @@
 
 - Pakistan Bureau of Statistics (PBS), "Labour Force Survey" report
 - Concepts and definitions follow ILO-aligned labour force framework as adapted by PBS
+- PBS official website: `https://www.pbs.gov.pk`
+- Labour Force Survey reports: `https://www.pbs.gov.pk/content/labour-force-survey`
 
 ## Document Structure
 

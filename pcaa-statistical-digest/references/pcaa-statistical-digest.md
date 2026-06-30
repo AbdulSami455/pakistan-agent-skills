@@ -2,7 +2,9 @@
 
 ## Source
 
-- Pakistan Civil Aviation Authority (PCAA); check PCAA's official website for the publications/statistics section hosting the annual Statistical Digest.
+- Pakistan Civil Aviation Authority (PCAA)
+- PCAA official website: `https://www.caapakistan.gov.pk`
+- Statistical Digest and traffic statistics: `https://caapakistan.gov.pk/` (under the "Statistics" or "Publications" section)
 
 ## Structure Notes
 

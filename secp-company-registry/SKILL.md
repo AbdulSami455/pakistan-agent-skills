@@ -62,3 +62,9 @@ Because of this, this skill should guide a human or agent through a **manual loo
 - Assuming SECP eServices exposes a stable JSON/API response — it does not, as of the latest verified state of this skill.
 - Reporting incorporation date or status without noting the date the lookup was performed.
 - Confusing SECP company registration with tax registration (FBR/NTN) — these are separate identifiers from separate agencies.
+
+## Source
+
+- SECP official website: `https://www.secp.gov.pk`
+- SECP eServices portal: `https://eservices.secp.gov.pk` (company search, tracking, complaints)
+- Company search: `https://eservices.secp.gov.pk/eServices/NameSearch.jsp`

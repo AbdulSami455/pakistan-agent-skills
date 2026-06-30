@@ -1,5 +1,12 @@
 # Punjab Development Statistics Reference
 
+## Source
+
+- Punjab Bureau of Statistics, Government of Punjab
+- Published annually as "Punjab Development Statistics" (also issued as "Punjab in Figures")
+- Official website: `https://bos.gop.pk` (Bureau of Statistics, Government of Punjab)
+- Publications section: `https://bos.gop.pk/publications`
+
 ## Structure Notes
 
 - Area and population
