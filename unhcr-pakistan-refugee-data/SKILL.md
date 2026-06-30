@@ -67,4 +67,7 @@ UNHCR's Operational Data Portal for Pakistan provides structured datasets, typic
 
 ## Reference
 
-- UNHCR Operational Data Portal — Pakistan situation page is the authoritative source for downloadable datasets and methodology notes; confirm the current portal URL and release cadence at time of use, since portal structure can be reorganized.
+- UNHCR Pakistan Operational Data Portal: `https://data.unhcr.org/en/countries/pak`
+- UNHCR Pakistan situation page: `https://www.unhcr.org/pakistan.html`
+- Downloadable datasets: `https://data.unhcr.org/en/situations/pakistan` (population statistics, factsheets)
+- Confirm the current portal URL and release cadence at time of use, since portal structure can be reorganized.
