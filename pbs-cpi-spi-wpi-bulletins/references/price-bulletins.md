@@ -3,7 +3,10 @@
 ## Source
 
 - Pakistan Bureau of Statistics (PBS): monthly CPI press release, weekly SPI bulletin, WPI bulletin
-- Published at `pbs.gov.pk`
+- Published at `https://www.pbs.gov.pk`
+- Price Statistics section: `https://www.pbs.gov.pk/price-statistics`
+- CPI releases: `https://www.pbs.gov.pk/cpi`
+- SPI/WPI data also available through PBS Data Portal: `https://www.pbs.gov.pk/sites/default/files/GB2025.pdf` (example annual bulletin)
 
 ## Document Structure
 
