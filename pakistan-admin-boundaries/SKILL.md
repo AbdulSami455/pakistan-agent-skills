@@ -68,4 +68,8 @@ Each level typically carries: a name field, a standardized P-code (Pakistan admi
 
 ## Reference
 
-- HDX (Humanitarian Data Exchange) COD-AB Pakistan dataset, maintained by UN OCHA, is the authoritative source for boundary geometry and the P-code hierarchy; check the dataset's HDX page for the current version/vintage before relying on cached copies.
+- HDX (Humanitarian Data Exchange) COD-AB Pakistan dataset, maintained by UN OCHA, is the authoritative source for boundary geometry and the P-code hierarchy
+- HDX dataset page: `https://data.humdata.org/dataset/cod-ab-pak`
+- UN OCHA Pakistan: `https://www.unocha.org/pakistan`
+- Pakistan OCHA HDX page: `https://data.humdata.org/organization/ocha-pakistan`
+- Check the dataset's HDX page for the current version/vintage before relying on cached copies.
