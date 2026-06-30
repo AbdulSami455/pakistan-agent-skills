@@ -63,4 +63,7 @@ Typical structure of the Annual Report includes a sector performance chapter, fi
 
 ## Reference
 
-- PTA publishes Telecom Indicators and Annual Reports on its official website; exact table numbering and indicator sets can shift between releases.
+- PTA publishes Telecom Indicators and Annual Reports on its official website: `https://www.pta.gov.pk`
+- Telecom Indicators data: `https://www.pta.gov.pk/telecom-indicators` (under the "Indicators" or "Publications" section)
+- PTA Annual Reports: `https://www.pta.gov.pk/annual-reports`
+- Exact table numbering and indicator sets can shift between releases.
