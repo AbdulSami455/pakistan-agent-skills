@@ -1,13 +1,13 @@
 ---
 name: pes-macro-and-prices
-description: Pakistan Economic Survey macro and prices skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on the overview of the economy, growth, investment, and inflation, especially for GDP growth, sector growth, macro stabilization, and price trends.
+description: Pakistan Economic Survey macro and prices skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on the overview of the economy, growth, investment, and inflation, especially for GDP growth, sector growth, macro stabilization, and price trends.
 ---
 
 # PES Macro and Prices
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about the macroeconomic overview, growth performance, investment conditions, and inflation. This skill is the right entry point when the task asks for headline economic performance, broad stabilization trends, or price developments.
+Use this skill for Pakistan Economic Survey questions about the macroeconomic overview, growth performance, investment conditions, and inflation. This skill is the right entry point when the task asks for headline economic performance, broad stabilization trends, or price developments.
 
 ## Chapter Coverage
 
@@ -64,4 +64,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about the macroeco
 ## Reference
 
 - See [Macro and Prices Reference](references/macro-and-prices.md) for chapter routing, key indicators, and extraction notes.
-

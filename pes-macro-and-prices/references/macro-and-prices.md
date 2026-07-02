@@ -2,8 +2,8 @@
 
 ## Source
 
-- Pakistan Economic Survey 2025-26 PDF
-- Official source provided by user: `https://www.finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf`
+- Pakistan Economic Survey, latest official edition PDF
+- Pakistan Economic Survey, current official edition on the Finance Division website: use the latest survey archive or the chapter PDF supplied by the user.
 
 ## Chapter Map
 
@@ -41,4 +41,3 @@
 - When the survey attributes price changes to supply, exchange-rate, or geopolitical factors, keep the attribution close to the source wording.
 - If the question asks for `inflation`, verify whether it means average CPI, year-on-year CPI, WPI, or SPI before answering.
 - If the question asks for `growth`, verify whether it means headline GDP, sector growth, or demand-side performance.
-
