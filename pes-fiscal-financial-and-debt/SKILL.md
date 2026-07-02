@@ -1,13 +1,13 @@
 ---
 name: pes-fiscal-financial-and-debt
-description: Pakistan Economic Survey fiscal, financial, and debt skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on fiscal development, money and credit, capital markets, corporate sector, and public debt, especially for deficits, primary balances, policy rates, market indicators, and debt trends.
+description: Pakistan Economic Survey fiscal, financial, and debt skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on fiscal development, money and credit, capital markets, corporate sector, and public debt, especially for deficits, primary balances, policy rates, market indicators, and debt trends.
 ---
 
 # PES Fiscal, Financial, and Debt
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about fiscal performance, monetary conditions, capital markets, corporate developments, and public debt. This is the right skill when the task requires budgetary indicators, policy-rate context, debt-service interpretation, or market-finance chapter detail.
+Use this skill for Pakistan Economic Survey questions about fiscal performance, monetary conditions, capital markets, corporate developments, and public debt. This is the right skill when the task requires budgetary indicators, policy-rate context, debt-service interpretation, or market-finance chapter detail.
 
 ## Chapter Coverage
 
@@ -64,4 +64,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about fiscal perfo
 ## Reference
 
 - See [Fiscal, Financial, and Debt Reference](references/fiscal-financial-and-debt.md) for chapter routing and unit discipline.
-

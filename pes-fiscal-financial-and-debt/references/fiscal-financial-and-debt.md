@@ -2,8 +2,8 @@
 
 ## Source
 
-- Pakistan Economic Survey 2025-26 PDF
-- Official source provided by user: `https://www.finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf`
+- Pakistan Economic Survey, latest official edition PDF
+- Pakistan Economic Survey, current official edition on the Finance Division website: use the latest survey archive or the chapter PDF supplied by the user.
 
 ## Chapter Map
 
@@ -39,4 +39,3 @@
 - Use chapter-specific language rather than blending fiscal and debt narratives into one unsourced claim.
 - Fiscal tables often place `FY 2026 (B.E)` next to earlier actual years; do not quote budget estimates as realized outcomes.
 - Monetary sections can mix current policy actions with cumulative easing or tightening since earlier years; keep both timelines separate.
-
