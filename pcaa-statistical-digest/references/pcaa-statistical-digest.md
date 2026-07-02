@@ -2,9 +2,10 @@
 
 ## Source
 
-- Pakistan Civil Aviation Authority (PCAA)
-- PCAA official website: `https://www.caapakistan.gov.pk`
-- Statistical Digest and traffic statistics: `https://caapakistan.gov.pk/` (under the "Statistics" or "Publications" section)
+- Pakistan Civil Aviation Authority (PCAA) — following the August 2024 restructuring, aviation regulatory functions sit with PCAA while airport operations sit with the separate Pakistan Airports Authority (PAA)
+- PCAA official website: `https://pcaa.gov.pk`
+- Pakistan Airports Authority (PAA): `https://paa.gov.pk`
+- Statistical Digest and traffic statistics: `https://pcaa.gov.pk/portals` (under the "Statistics" or "Publications" section)
 
 ## Structure Notes
 

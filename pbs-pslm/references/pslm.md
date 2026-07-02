@@ -5,7 +5,7 @@
 - Pakistan Bureau of Statistics (PBS), "Pakistan Social and Living Standards Measurement" (PSLM) survey
 - Published as a key findings volume plus detailed statistical tables
 - PBS official website: `https://www.pbs.gov.pk`
-- PSLM reports: `https://www.pbs.gov.pk/content/pslm-district-level-surveys`
+- PSLM reports: `https://www.pbs.gov.pk/pslm-3/`
 
 ## Document Structure
 

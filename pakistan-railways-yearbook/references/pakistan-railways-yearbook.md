@@ -3,7 +3,7 @@
 ## Source
 
 - Pakistan Railways, Ministry of Railways, Government of Pakistan
-- Pakistan Railways official website: `https://www.pakistanrailways.gov.pk`
+- Pakistan Railways official website: `https://www.pakrail.gov.pk`
 - Ministry of Railways: `https://www.railways.gov.pk`
 - Yearbooks and publications are typically hosted under the "Publications" or "Statistics" section of the Pakistan Railways website
 
