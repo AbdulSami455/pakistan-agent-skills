@@ -5,8 +5,8 @@
 - AEPAM (Academy of Educational Planning and Management) "Pakistan Education Statistics" annual report
 - Underlying data from NEMIS (National Education Management Information System) Annual School Census (ASC)
 - Published by the Ministry of Federal Education and Professional Training
-- AEPAM website: `https://aepam.gov.pk`
-- NEMIS portal: `https://nemis.gov.pk`
+- AEPAM merged into the Pakistan Institute of Education (PIE) in 2021; PIE website: `https://pie.gov.pk`
+- NEMIS/EMIS portal: `https://www.emis.gob.pk`
 - Ministry of Federal Education: `https://mofept.gov.pk`
 
 ## Document Structure

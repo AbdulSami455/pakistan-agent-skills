@@ -5,7 +5,7 @@
 - Pakistan Bureau of Statistics (PBS), Agricultural Census Organization (now under PBS headquarters)
 - "Pakistan Agricultural Census - Main Findings Report" and "Pakistan Livestock Census - Main Findings Report"
 - Conducted roughly once a decade
-- PBS Agriculture Census data: `https://www.pbs.gov.pk/content/agricultural-census`
+- PBS Agriculture Census data: `https://www.pbs.gov.pk/agriculture-census/`
 - PBS official website: `https://www.pbs.gov.pk`
 
 ## Document Structure
