@@ -1,13 +1,13 @@
 ---
 name: pes-infrastructure-digital-and-climate
-description: Pakistan Economic Survey infrastructure, digital, and climate skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on transport, communications, energy, information technology, telecommunication, and climate change, especially for infrastructure indicators, digital transformation, connectivity, and climate-related policy or resilience themes.
+description: Pakistan Economic Survey infrastructure, digital, and climate skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on transport, communications, energy, information technology, telecommunication, and climate change, especially for infrastructure indicators, digital transformation, connectivity, and climate-related policy or resilience themes.
 ---
 
 # PES Infrastructure, Digital, and Climate
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about transport, communications, energy, IT, telecommunication, and climate change. This is the right skill when the task is about enabling infrastructure, connectivity, digital-sector development, energy-sector indicators, or climate-response themes.
+Use this skill for Pakistan Economic Survey questions about transport, communications, energy, IT, telecommunication, and climate change. This is the right skill when the task is about enabling infrastructure, connectivity, digital-sector development, energy-sector indicators, or climate-response themes.
 
 ## Chapter Coverage
 
@@ -63,4 +63,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about transport, c
 ## Reference
 
 - See [Infrastructure, Digital, and Climate Reference](references/infrastructure-digital-and-climate.md) for chapter routing and indicator-handling notes.
-

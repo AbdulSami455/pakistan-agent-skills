@@ -2,8 +2,8 @@
 
 ## Source
 
-- Pakistan Economic Survey 2025-26 PDF
-- Official source provided by user: `https://www.finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf`
+- Pakistan Economic Survey, latest official edition PDF
+- Pakistan Economic Survey, current official edition on the Finance Division website: use the latest survey archive or the chapter PDF supplied by the user.
 
 ## Chapter Map
 
