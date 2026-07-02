@@ -6,7 +6,7 @@
 - Published at `https://www.pbs.gov.pk`
 - Price Statistics section: `https://www.pbs.gov.pk/price-statistics`
 - CPI releases: `https://www.pbs.gov.pk/cpi`
-- SPI/WPI data also available through PBS Data Portal: `https://www.pbs.gov.pk/sites/default/files/GB2025.pdf` (example annual bulletin)
+- SPI/WPI bulletins are archived on the PBS site alongside the monthly releases; use the latest bulletin PDF rather than a year-specific example file.
 
 ## Document Structure
 

@@ -29,7 +29,7 @@ Use this skill for questions about Pakistan's high-frequency price statistics pu
 
 - Use this skill for monthly (CPI/WPI) or weekly (SPI) item/commodity-level price detail.
 - For the annual inflation narrative (full fiscal-year average inflation, broad commentary on price drivers), use `pes-macro-and-prices` instead — that chapter summarizes the year, these bulletins are the underlying high-frequency releases.
-- If a question asks "what was inflation last week" or "how did the price of a specific item move this month," use this skill; if it asks "what was average inflation for FY2025-26," use `pes-macro-and-prices`.
+- If a question asks "what was inflation last week" or "how did the price of a specific item move this month," use this skill; if it asks for the full fiscal-year inflation average, use `pes-macro-and-prices`.
 - CPI, SPI, and WPI are three distinct indices with different baskets and frequencies; do not treat a movement in one as automatically implying the same movement in another.
 
 ## Extraction Workflow
