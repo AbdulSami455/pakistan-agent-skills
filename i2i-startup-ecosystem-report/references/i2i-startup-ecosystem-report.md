@@ -2,7 +2,7 @@
 
 ## Source
 
-- Invest2Innovate (I2I): `https://i2i.pk`
+- Invest2Innovate (I2I): `https://invest2innovate.com`
 - Published periodically as "Pakistan Startup Ecosystem Report"; known editions have appeared roughly around 2014, 2016, 2019, 2021, and 2024 — always confirm the latest available edition before relying on it.
 
 ## Structure Notes

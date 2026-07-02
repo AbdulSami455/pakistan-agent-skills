@@ -2,8 +2,8 @@
 
 ## Source
 
-- Indus River System Authority (IRSA) Daily Data page: `https://pakirsa.gov.pk`
-- Note: `irsa.gov.pk` is not the authority's correct operating domain for this data; always use `pakirsa.gov.pk`.
+- Indus River System Authority (IRSA) Daily Data page: `http://pakirsa.gov.pk`
+- Note: `irsa.gov.pk` is not the authority's correct operating domain for this data; always use `pakirsa.gov.pk`. The site does not serve valid HTTPS — use the `http://` scheme.
 
 ## Reservoirs and Barrages Covered
 
