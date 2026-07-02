@@ -4,7 +4,7 @@
 
 - National Electric Power Regulatory Authority (NEPRA), Government of Pakistan
 - NEPRA official website: `https://www.nepra.org.pk`
-- Tariff section (generation, transmission, distribution determinations and periodic adjustments): `https://nepra.org.pk/tariff/Generation%20IPPs%20Coal.php` and related tariff sub-pages under the "Tariff" navigation on nepra.org.pk
+- Tariff section (generation, transmission, distribution determinations and periodic adjustments): use the Tariff navigation on `https://nepra.org.pk` rather than relying on a single sub-page URL, which may move between releases.
 - Determinations are published as individual PDF notifications, often gazetted (published in the Gazette of Pakistan) once finalized.
 
 ## Document Structure
