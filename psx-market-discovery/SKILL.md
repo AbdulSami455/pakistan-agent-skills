@@ -63,7 +63,7 @@ Use this skill for package workflows that describe the listed market universe, i
 
 - Index pages often change labels before structure; field mapping should fail loudly if names drift.
 - Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
-- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/psxdata/psxdata`)
+- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/mtauha/psxdata`)
 - Ticker lists and index constituents sourced from PSX market summaries and KSE-100/All-Share index compositions.
 - Index pages often change labels before structure; field mapping should fail loudly if names drift.
 - Sector tables may include totals or summary rows that should not be interpreted as ordinary sector records.

@@ -62,7 +62,7 @@ Use this skill for package workflows involving PSX debt instruments and margin-e
 
 - Reusing equity-oriented cleanup logic on debt instruments can destroy instrument-specific meaning.
 - Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
-- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/psxdata/psxdata`)
+- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/mtauha/psxdata`)
 - Debt market and margin eligibility data sourced directly from PSX daily disclosures.
 - Empty or sparse cells can shift columns if parsing logic assumes every row is dense.
 - Reusing equity-oriented cleanup logic on debt instruments can destroy instrument-specific meaning.
