@@ -2,8 +2,8 @@
 
 ## Source
 
-- Pakistan Economic Survey 2025-26 PDF
-- Official source provided by user: `https://www.finance.gov.pk/survey/chapter_26/Complete_PES2025_26.pdf`
+- Pakistan Economic Survey, latest official edition PDF
+- Pakistan Economic Survey, current official edition on the Finance Division website: use the latest survey archive or the chapter PDF supplied by the user.
 
 ## Chapter Map
 
@@ -36,4 +36,3 @@
 - Distinguish pre-crisis and post-crisis passages where the chapter does so.
 - The chapter explicitly distinguishes PBS customs-based merchandise trade from SBP balance-of-payments presentation; do not merge them casually.
 - When the answer needs a trade deficit figure, verify whether it is the merchandise trade deficit or current account balance.
-

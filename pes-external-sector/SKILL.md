@@ -1,13 +1,13 @@
 ---
 name: pes-external-sector
-description: Pakistan Economic Survey external sector skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on trade and payments, especially for exports, imports, remittances, current account, reserves, external buffers, and external shocks.
+description: Pakistan Economic Survey external sector skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on trade and payments, especially for exports, imports, remittances, current account, reserves, external buffers, and external shocks.
 ---
 
 # PES External Sector
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about the external sector, including exports, imports, remittances, current account performance, reserves, and external vulnerability. This skill is the right entry point when the task is about trade performance or balance-of-payments style interpretation inside the survey.
+Use this skill for Pakistan Economic Survey questions about the external sector, including exports, imports, remittances, current account performance, reserves, and external vulnerability. This skill is the right entry point when the task is about trade performance or balance-of-payments style interpretation inside the survey.
 
 ## Chapter Coverage
 
@@ -59,4 +59,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about the external
 ## Reference
 
 - See [External Sector Reference](references/external-sector.md) for chapter routing and period handling notes.
-
