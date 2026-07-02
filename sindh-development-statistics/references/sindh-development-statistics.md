@@ -4,7 +4,7 @@
 
 - Sindh Bureau of Statistics, Government of Sindh.
 - Published annually as "Sindh Development Statistics."
-- Sindh Bureau of Statistics: `https://sindhbos.gov.pk` (or under `https://sindh.gov.pk` Statistics section)
+- Sindh Bureau of Statistics: `https://sbos.sindh.gov.pk` (or under `https://sindh.gov.pk` Statistics section)
 
 ## Structure Notes
 

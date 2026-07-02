@@ -71,7 +71,7 @@ Use this skill for company-level package workflows that need current quote data 
 
 - Field names can change between PSX website revisions.
 - Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
-- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/psxdata/psxdata`)
+- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/mtauha/psxdata`)
 - Validate that field names remain stable when upstream pages change labels or order.
 - Fundamentals tables often break through missing cells, merged headers, or period-grouping changes.
 - Over-normalizing labels can make new upstream fields indistinguishable from old ones.

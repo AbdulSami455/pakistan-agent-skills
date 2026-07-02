@@ -4,8 +4,8 @@
 
 - Provincial Finance Departments: Punjab Finance Department, Sindh Finance Department, Khyber Pakhtunkhwa Finance Department, and Balochistan Finance Department, each publishing its own annual budget set on its respective government website.
 - Punjab Finance Department: `https://finance.punjab.gov.pk`
-- Sindh Finance Department: `https://sindhfinance.gov.pk`
-- Khyber Pakhtunkhwa Finance Department: `https://kpfinance.gov.pk`
+- Sindh Finance Department: `https://finance.gos.pk`
+- Khyber Pakhtunkhwa Finance Department: `https://www.finance.gkp.pk`
 - Balochistan Finance Department: `https://balochistan.gov.pk` (Finance section)
 
 ## Document Map (typical across provinces)
