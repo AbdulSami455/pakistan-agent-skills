@@ -175,6 +175,7 @@ Notes:
 - Use `sbp-monetary-policy-statement` for a specific MPC meeting's policy rate decision or rationale.
 - Use `sbp-financial-soundness-indicators` for bank-wise NPL, CAR, or profitability ratios.
 - Use `sbp-financial-stability-review` for systemic risk narrative on banks, NBFIs, or insurance.
+- Use `ecp-election-results` for official ECP election results, by-elections, and constituency lookup.
 
 ## Contribution Guide
 
