@@ -1,13 +1,13 @@
 ---
 name: pes-real-sectors
-description: Pakistan Economic Survey real sectors skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on agriculture, manufacturing, and mining, especially for crop output, industrial production, sector performance, and real-economy drivers.
+description: Pakistan Economic Survey real sectors skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on agriculture, manufacturing, and mining, especially for crop output, industrial production, sector performance, and real-economy drivers.
 ---
 
 # PES Real Sectors
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about the real economy, especially agriculture, manufacturing, and mining. This is the right skill when the task is about crops, output changes, production groups, industrial recovery, or sector-specific real activity.
+Use this skill for Pakistan Economic Survey questions about the real economy, especially agriculture, manufacturing, and mining. This is the right skill when the task is about crops, output changes, production groups, industrial recovery, or sector-specific real activity.
 
 ## Chapter Coverage
 
@@ -61,4 +61,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about the real eco
 ## Reference
 
 - See [Real Sectors Reference](references/real-sectors.md) for chapter routing, unit discipline, and table-handling notes.
-
