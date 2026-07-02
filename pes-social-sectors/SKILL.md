@@ -1,13 +1,13 @@
 ---
 name: pes-social-sectors
-description: Pakistan Economic Survey social sectors skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey 2025-26 on education, health and nutrition, population, labour force and employment, and social protection, especially for enrolment, health manpower, demographic trends, welfare, poverty, and inequality.
+description: Pakistan Economic Survey social sectors skill. Use when analyzing, summarizing, comparing, or extracting information from the Pakistan Economic Survey on education, health and nutrition, population, labour force and employment, and social protection, especially for enrolment, health manpower, demographic trends, welfare, poverty, and inequality.
 ---
 
 # PES Social Sectors
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey 2025-26 questions about education, health, nutrition, population, labour, employment, poverty, inequality, and social protection. This is the right skill when the task is about human-development indicators or household welfare outcomes in the survey.
+Use this skill for Pakistan Economic Survey questions about education, health, nutrition, population, labour, employment, poverty, inequality, and social protection. This is the right skill when the task is about human-development indicators or household welfare outcomes in the survey.
 
 ## Chapter Coverage
 
@@ -64,4 +64,3 @@ Use this skill for Pakistan Economic Survey 2025-26 questions about education, h
 ## Reference
 
 - See [Social Sectors Reference](references/social-sectors.md) for chapter routing, scope discipline, and indicator-handling notes.
-
