@@ -30,6 +30,8 @@ Use this skill for Pakistan Economic Survey questions about education, health, n
 - Use Chapter 11 for health manpower, health systems, and nutrition-related material.
 - Use Chapter 12 for population size, demographic structure, labour force, and employment.
 - Use Chapter 16 for poverty, inequality, welfare, and social protection outcomes.
+- For BISP/Benazir cash transfer beneficiary counts or disbursement detail, prefer `bisp-social-protection-statistics`; this chapter summarizes social protection at a narrative level.
+- For survey-based poverty headcount rates with district granularity, prefer `pbs-pslm`.
 
 ## Extraction Workflow
 

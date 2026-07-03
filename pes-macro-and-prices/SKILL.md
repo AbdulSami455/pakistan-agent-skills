@@ -29,6 +29,7 @@ Use this skill for Pakistan Economic Survey questions about the macroeconomic ov
 - Use Chapter 1 when the question is about GDP growth, investment, global backdrop, or sectoral composition of growth.
 - Use Chapter 7 when the question is specifically about inflation, CPI, SPI, price drivers, or base effects.
 - If a question crosses macro and fiscal themes, start here for the headline context and then read the fiscal skill if the answer needs budget detail.
+- If the question needs quarterly GDP growth or sectoral value-added detail at higher frequency than the annual survey, prefer `pbs-national-accounts`.
 
 ## Extraction Workflow
 
