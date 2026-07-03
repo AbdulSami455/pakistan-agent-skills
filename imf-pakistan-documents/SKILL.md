@@ -30,6 +30,7 @@ Use this skill for IMF documents specific to Pakistan: Article IV consultation r
 - For SBP's own monetary or external-sector narrative — prefer `sbp-annual-report` or `sbp-monetary-policy-statement`.
 - For the federal budget text itself — use `federal-budget-documents`; use this skill only for the program target the budget is meant to satisfy.
 - For Pakistan's debt or fiscal position from the government's own perspective — use `pes-fiscal-financial-and-debt` instead.
+- For World Bank or ADB development indicators with cross-country comparability, prefer `world-bank-pakistan-indicators` or `adb-pakistan-indicators`; IMF documents focus on program conditionality rather than broad development indicator databases.
 
 ## Routing Rules
 

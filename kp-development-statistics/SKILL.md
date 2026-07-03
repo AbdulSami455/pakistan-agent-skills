@@ -25,7 +25,7 @@ Use this skill for province-level socioeconomic statistics for Khyber Pakhtunkhw
 
 ## Routing Rules
 
-- Use this skill specifically for Khyber Pakhtunkhwa; use `punjab-development-statistics` for Punjab, `sindh-development-statistics` for Sindh, or `balochistan-development-statistics` for Balochistan.
+- Use this skill specifically for Khyber Pakhtunkhwa; use `punjab-development-statistics` for Punjab, `sindh-development-statistics` for Sindh, `balochistan-development-statistics` for Balochistan, `ajk-development-statistics` for Azad Jammu & Kashmir, or `gb-development-statistics` for Gilgit-Baltistan.
 - If the question is about national aggregates rather than a single province's breakdown, prefer a national-level skill (e.g., a PBS or PES skill) instead.
 - Use this skill instead of PES chapters when district- or division-level granularity within KP is required; PES typically reports only at the national or provincial-aggregate level.
 - For merged-district or post-2018 administrative boundary questions, note that KP has seen significant district reorganizations; confirm the edition's administrative geography before comparing across years.
