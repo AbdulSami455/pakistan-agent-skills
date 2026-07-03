@@ -27,6 +27,7 @@ Use this skill for Pakistan's event-driven disaster situation reporting, publish
 ## When Not to Use This Skill
 
 - For steady-state daily reservoir levels, inflows, or discharges — use `irsa-reservoir-data` instead; IRSA data is routine operational reporting, not emergency response.
+- For the underlying rainfall observations that trigger flood events — use `pmd-weather-climate-data` instead; NDMA sitreps report disaster impact, not meteorological measurements.
 - For annual water-resources policy narrative or climate/disaster-risk commentary — use `pes-infrastructure-digital-and-climate` instead.
 - For long-term disaster-risk reduction planning or policy documents rather than a specific event's real-time figures.
 

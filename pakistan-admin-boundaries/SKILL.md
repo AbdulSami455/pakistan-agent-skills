@@ -62,7 +62,7 @@ Each level typically carries: a name field, a standardized P-code (Pakistan admi
 ## Technical Pitfalls
 
 - District boundary changes (new districts split from existing ones) mean a name-only join across years can silently misattribute population or statistics to the wrong unit.
-- Gilgit-Baltistan and Azad Jammu & Kashmir are sometimes excluded or treated separately in national statistical datasets — check whether the dataset being joined actually includes them before assuming full national coverage.
+- Gilgit-Baltistan and Azad Jammu & Kashmir are sometimes excluded or treated separately in national statistical datasets — check whether the dataset being joined actually includes them before assuming full national coverage. For territory-specific statistics, use `ajk-development-statistics` or `gb-development-statistics`.
 - Division-level administrative units are not used uniformly by every Pakistani government data source, so a division-level join may fail silently if the source dataset only reports at district level.
 - Shapefile/GeoJSON attribute field names can vary by COD-AB release version (e.g., `ADM2_EN` vs. similar naming); confirm field names against the specific dataset version in use rather than assuming a fixed schema.
 

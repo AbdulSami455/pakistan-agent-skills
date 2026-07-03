@@ -30,6 +30,7 @@ Use this skill for questions about Pakistan's official national accounts statist
 - If the question is about inflation rather than real GDP growth, prefer `pbs-cpi-spi-wpi-bulletins` for high-frequency price data or `pes-macro-and-prices` for the annual inflation narrative.
 - If the question is about fiscal aggregates (deficit, revenue, expenditure) rather than GDP, prefer `pes-fiscal-financial-and-debt` or `federal-budget-documents`.
 - SBP's own GDP commentary in the Annual Report or Monetary Policy Statement should be cross-referenced with PBS national accounts for the underlying figures; prefer this skill for the official PBS numbers.
+- For internationally comparable GDP, poverty, or governance indicators from multilateral sources, prefer `world-bank-pakistan-indicators` or `adb-pakistan-indicators`.
 
 ## Extraction Workflow
 
