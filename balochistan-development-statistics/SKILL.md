@@ -25,7 +25,7 @@ Use this skill for province-level socioeconomic statistics for Balochistan drawn
 
 ## Routing Rules
 
-- Use this skill specifically for Balochistan; use `punjab-development-statistics` for Punjab, `sindh-development-statistics` for Sindh, or `kp-development-statistics` for Khyber Pakhtunkhwa.
+- Use this skill specifically for Balochistan; use `punjab-development-statistics` for Punjab, `sindh-development-statistics` for Sindh, `kp-development-statistics` for Khyber Pakhtunkhwa, `ajk-development-statistics` for Azad Jammu & Kashmir, or `gb-development-statistics` for Gilgit-Baltistan.
 - If the question is about national aggregates rather than a single province's breakdown, prefer a national-level skill (e.g., a PBS or PES skill) instead.
 - Use this skill instead of PES chapters when district- or division-level granularity within Balochistan is required; PES typically reports only at the national or provincial-aggregate level.
 - Balochistan's sparse population and large geographic area mean district-level figures can have high sampling variance; note this when interpreting small-district statistics.
