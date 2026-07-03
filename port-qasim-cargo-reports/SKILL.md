@@ -26,7 +26,7 @@ Use this skill for Port Qasim Authority's operational shipping and cargo statist
 
 ## Routing Rules
 
-- Use this skill for Port Qasim-specific operational data. If the question is about Karachi Port, use `karachi-port-cargo-reports`; if about Gwadar Port, note that this skill does not cover Gwadar and look for a port-specific source if needed.
+- Use this skill for Port Qasim-specific operational data. If the question is about Karachi Port, use `karachi-port-cargo-reports`; if about Gwadar Port, use `gwadar-port-cargo-reports`.
 - Use this skill instead of PES or TDAP trade skills when the question is about physical cargo/vessel handling rather than customs-recorded trade value; tonnage handled at a port and the value of goods traded are different concepts that should not be conflated.
 - If the question is about national-level total seaborne trade volume, this skill alone (Port Qasim only) is insufficient; note that Karachi Port and Gwadar Port handle separate, non-overlapping volumes.
 
