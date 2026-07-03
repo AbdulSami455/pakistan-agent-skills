@@ -28,6 +28,8 @@ Use this skill for Pakistan Economic Survey questions about transport, communica
 
 - Use Chapter 13 for transport networks, rail, ports, postal, broadcasting, and communication-sector metrics.
 - Use Chapter 14 for energy production, energy management, and energy-sector discussion.
+- For petroleum and natural gas production, consumption, or regulated pricing detail, prefer `ogra-petroleum-industry-reports`; Chapter 14 summarizes energy at a narrative level covering both power and petroleum.
+- For electricity generation, DISCO performance, or power-sector tariffs, prefer `nepra-state-of-industry` or `nepra-tariff-determinations`.
 - Use Chapter 15 for IT exports, broadband expansion, digital transformation, telecom, and public digital infrastructure.
 - Use Chapter 17 for climate vulnerability, resilience, adaptation, and climate-policy discussion.
 

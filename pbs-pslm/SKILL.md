@@ -28,6 +28,7 @@ Use this skill for questions about Pakistan's Pakistan Social and Living Standar
 
 - Use this skill for district- or household-level poverty, consumption, and access-to-services detail drawn from the PSLM instrument.
 - For the national poverty and inequality narrative summarized in the annual economic survey, use `pes-social-sectors` (Chapter 16: Social Protection) instead — that chapter cites topline poverty trend figures, this skill is the underlying survey with district/household granularity.
+- For BISP/Benazir cash transfer beneficiary counts or disbursement statistics, use `bisp-social-protection-statistics` instead — PSLM measures poverty rates, not programme enrollment or payment data.
 - For employment and labour force statistics, use `pbs-labour-force-survey` instead — PSLM and LFS are separate PBS survey instruments with different sampling and modules, even though both may report some overlapping demographic context.
 - If a question asks for a specific district's poverty rate or service-access indicator, this skill is the correct source — PES does not report at district granularity.
 
