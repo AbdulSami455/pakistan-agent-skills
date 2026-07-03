@@ -176,6 +176,12 @@ Notes:
 - Use `sbp-financial-soundness-indicators` for bank-wise NPL, CAR, or profitability ratios.
 - Use `sbp-financial-stability-review` for systemic risk narrative on banks, NBFIs, or insurance.
 - Use `ecp-election-results` for official ECP election results, by-elections, and constituency lookup.
+- Use `kp-development-statistics` or `balochistan-development-statistics` for province-specific socioeconomic indicators in those provinces.
+- Use `karachi-port-cargo-reports` for Karachi Port vessel and cargo throughput; use `port-qasim-cargo-reports` for Port Qasim.
+- Use `ogra-petroleum-industry-reports` for oil/gas production, consumption, and regulated petroleum pricing.
+- Use `pbs-national-accounts` for quarterly GDP growth or sectoral value-added from PBS.
+- Use `psdp-federal-development-programme` for federal development project allocations and expenditure.
+- Use `bisp-social-protection-statistics` for BISP/Benazir beneficiary counts and cash transfer disbursements.
 
 ## Contribution Guide
 
