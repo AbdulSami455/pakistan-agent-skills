@@ -30,6 +30,7 @@ Use this skill for Pakistan's annual federal budget documents released around th
 - If the question is about actual fiscal performance, deficits, or outturns for a year already underway or completed, prefer `pes-fiscal-financial-and-debt`.
 - If the question is about detailed tax collection statistics by tax head once the year is complete, prefer `fbr-yearbook`.
 - If the question is about a specific province's budget rather than the federal budget, prefer `provincial-budget-documents`.
+- If the question is about federal development project allocations rather than overall budget aggregates, prefer `psdp-federal-development-programme`.
 - If the question is about customs tariff schedules specifically (HS codes, duty rates) rather than the broader budget, prefer `fbr-customs-tariff`, since the Finance Bill may reference tariff changes but the Fifth Schedule itself is the authoritative tariff source.
 
 ## Extraction Workflow

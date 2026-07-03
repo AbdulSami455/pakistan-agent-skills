@@ -1,0 +1,23 @@
+# Karachi Port Cargo Reports Reference
+
+## Source
+
+- Karachi Port Trust (KPT)
+- KPT official website: `https://www.kpt.gov.pk`
+- Daily shipping notices, cargo statistics, and trade data published on the KPT website under "Shipping" or "Trade & Traffic" sections
+
+## Typical Report Fields
+
+- Vessel name, type, arrival/berthing date, berth/terminal assignment
+- Cargo type and quantity handled per vessel
+- Terminal-wise cumulative throughput (daily/monthly/fiscal-year-to-date)
+- Commodity categories: containers (TEU), bulk grain, coal, POL products, general cargo
+
+## Distinct Ports Note
+
+- Karachi Port (Karachi Port Trust), Port Qasim (Port Qasim Authority), and Gwadar Port (Gwadar Port Authority) are separately operated and separately reported; do not merge their statistics without explicit aggregation from an authoritative source.
+
+## Extraction Notes
+
+- Always anchor a figure to its exact date/period and to Karachi Port specifically.
+- Container volumes (TEU) and bulk/liquid cargo volumes (metric tons) are different units and should not be combined into a single "cargo" figure without conversion methodology.
