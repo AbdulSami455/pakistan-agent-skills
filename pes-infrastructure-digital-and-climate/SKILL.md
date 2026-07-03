@@ -32,6 +32,7 @@ Use this skill for Pakistan Economic Survey questions about transport, communica
 - For electricity generation, DISCO performance, or power-sector tariffs, prefer `nepra-state-of-industry` or `nepra-tariff-determinations`.
 - Use Chapter 15 for IT exports, broadband expansion, digital transformation, telecom, and public digital infrastructure.
 - Use Chapter 17 for climate vulnerability, resilience, adaptation, and climate-policy discussion.
+- For observed weather, rainfall, temperature, or climate normals, prefer `pmd-weather-climate-data`; Chapter 17 covers climate policy narrative, not station-level meteorological observations.
 
 ## Extraction Workflow
 

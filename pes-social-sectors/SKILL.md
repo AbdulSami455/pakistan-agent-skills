@@ -28,6 +28,8 @@ Use this skill for Pakistan Economic Survey questions about education, health, n
 
 - Use Chapter 10 for schooling, enrolment, institutions, and teacher counts.
 - Use Chapter 11 for health manpower, health systems, and nutrition-related material.
+- For internationally comparable health indicators (mortality, immunization, health expenditure), prefer `who-pakistan-health-statistics`.
+- For child-specific indicators (child mortality, stunting, WASH, out-of-school children), prefer `unicef-pakistan-data`.
 - Use Chapter 12 for population size, demographic structure, labour force, and employment.
 - Use Chapter 16 for poverty, inequality, welfare, and social protection outcomes.
 - For BISP/Benazir cash transfer beneficiary counts or disbursement detail, prefer `bisp-social-protection-statistics`; this chapter summarizes social protection at a narrative level.

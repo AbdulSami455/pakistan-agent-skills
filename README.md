@@ -182,6 +182,11 @@ Notes:
 - Use `pbs-national-accounts` for quarterly GDP growth or sectoral value-added from PBS.
 - Use `psdp-federal-development-programme` for federal development project allocations and expenditure.
 - Use `bisp-social-protection-statistics` for BISP/Benazir beneficiary counts and cash transfer disbursements.
+- Use `gwadar-port-cargo-reports` for Gwadar Port vessel and cargo throughput.
+- Use `ajk-development-statistics` or `gb-development-statistics` for territory-specific socioeconomic indicators.
+- Use `who-pakistan-health-statistics` or `unicef-pakistan-data` for internationally standardized health and child indicators.
+- Use `pmd-weather-climate-data` for weather observations, climate normals, or seasonal forecasts.
+- Use `world-bank-pakistan-indicators` or `adb-pakistan-indicators` for multilateral development indicators with cross-country comparability.
 
 ## Contribution Guide
 
