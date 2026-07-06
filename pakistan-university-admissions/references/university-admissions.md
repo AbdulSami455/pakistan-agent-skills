@@ -11,12 +11,13 @@
 
 | Test | Full Name | Used For | Administered By |
 |------|-----------|----------|----------------|
-| MDCAT | Medical and Dental College Admission Test | MBBS, BDS admission | PMDC / provincial health departments |
-| NMDCAT | National MDCAT | Federal/provincial medical colleges | PMC (Pakistan Medical Commission) |
+| MDCAT | Medical and Dental College Admission Test | MBBS, BDS admission nationwide | Pakistan Medical & Dental Council (PMDC) |
 | ECAT | Engineering College Admission Test | Engineering programs (Punjab) | UET Lahore / Punjab |
 | NET | NUST Entry Test | NUST undergraduate programs | NUST |
 | HAT-HEC | HEC Admission Test | Various universities (HEC-affiliated) | HEC / NTS |
 | LAT | Law Admission Test | LLB programs | HEC |
+
+Note on MDCAT's administering body: the regulator has been renamed more than once — Pakistan Medical & Dental Council (PMDC) was replaced by the Pakistan Medical Commission (PMC) in 2019, then reconstituted back as PMDC under the Pakistan Medical and Dental Council Act, 2023. "NMDCAT" (National MDCAT) is not a separate test — it is the same single national medical/dental entry test as MDCAT, just the name used during the PMC-era rebranding. Always confirm which regulator name applies to the admission cycle in question rather than assuming PMDC and PMC are concurrent, separate bodies.
 
 ## Admission Categories
 

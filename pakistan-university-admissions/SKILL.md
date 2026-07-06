@@ -48,7 +48,7 @@ This skill covers admission data from multiple source types:
 1. Identify the specific university, program, and admission year/cycle the question asks about.
 2. Identify whether the program is undergraduate or postgraduate — closing merits and entry test requirements differ by level.
 3. Identify the admission category if relevant: open merit, quota (provincial, federal, overseas, disabled, sports, etc.) — closing merits differ by category.
-4. For medical programs: confirm the entry test is MDCAT (now under NMDCAT for federal/provincial medical colleges) and note the test year.
+4. For medical programs: confirm the entry test is MDCAT (a single national test; "NMDCAT" is the same test under a since-reverted regulator-era name, not a separate exam) and note the test year and which regulator (PMDC or, for the 2019-2023 period, PMC) was administering it that year.
 5. For engineering programs: confirm whether the entry test is ECAT (Punjab), NET (NUST), or another university-specific test.
 6. Extract the closing merit figure exactly as published — note whether it is a percentage, an aggregate score, or a test score threshold.
 7. Note the program duration if relevant (e.g., 5-year MBBS vs 4-year BS) — this affects merit comparisons.
@@ -57,7 +57,7 @@ This skill covers admission data from multiple source types:
 
 - Always state the admission year/cycle alongside any closing merit figure — merits change annually.
 - Distinguish "closing merit" (the last admitted student's score) from "minimum eligibility" (the threshold to apply) — these are different figures.
-- Entry test names must be preserved exactly: MDCAT, NMDCAT, ECAT, NET, HAT-HEC, etc. — do not abbreviate inconsistently.
+- Entry test names must be preserved exactly: MDCAT, ECAT, NET, HAT-HEC, etc. — do not abbreviate inconsistently, and do not treat "NMDCAT" as a test distinct from MDCAT (it is the same exam under a former regulator-era name).
 - Seat counts by category (open merit, quota, reserved) should be reported separately, not summed into a single total unless the source does so.
 - Provincial quota systems differ — a Punjab-domiciled student's closing merit may differ from a Sindh-domiciled student's for the same program at a federal university.
 - Private university admission criteria may include their own entry tests or accept HEC's HAT — confirm which test applies.
