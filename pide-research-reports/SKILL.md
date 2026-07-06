@@ -29,7 +29,7 @@ Use this skill for Pakistan Institute of Development Economics (PIDE) working pa
 - Use this skill whenever the source is explicitly a PIDE paper or report; do not substitute it for official government statistics.
 - If the question is about official economic outturns (growth, inflation, fiscal, external sector) rather than independent analysis, prefer the relevant `pes-*` or `sbp-*` skill, and use PIDE material only for added analytical perspective when requested.
 - If the question is about IMF's external assessment rather than a domestic think-tank's, prefer `imf-pakistan-documents`.
-- Because PIDE output is topic-driven rather than document-structured, route by topic/keyword search within the specific paper rather than by a fixed chapter map.
+- Because PIDE output is topic-driven rather than document-structured, route by topic/keyword search within the specific paper rather than by a fixed chapter map: search PIDE's site by keyword/category (Working Paper, Knowledge Brief, Discussion Paper, Policy Viewpoint) or by author, and use PDR's own archive separately for journal articles. See the reference file for a concrete search workflow.
 
 ## Extraction Workflow
 
@@ -57,6 +57,7 @@ Use this skill for Pakistan Institute of Development Economics (PIDE) working pa
 
 - PIDE website: `https://www.pide.org.pk`
 - Working papers and policy reports: `https://www.pide.org.pk/research/` (under "Publications" or "Research")
+- See [PIDE Research Reports Reference](references/pide-research-reports.md) for recurring publication series/formats, illustrative research themes, and concrete search/discovery strategy.
 
 ## Common Pitfalls
 

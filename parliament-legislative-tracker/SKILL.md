@@ -69,6 +69,7 @@ There is **no confirmed formal API** for the National Assembly (NA) bill-trackin
 
 ## Source
 
+- See [Parliament Legislative Tracker Reference](references/parliament-legislative-tracker.md) for the legislative-process stages, the Bill/Act/Ordinance distinction, and federal-only scope notes.
 - National Assembly of Pakistan: `https://na.gov.pk`
 - Senate of Pakistan: `https://senate.gov.pk`
 - Pakistan Legislative Tracker (openparliament.pk): `https://openparliament.pk`
