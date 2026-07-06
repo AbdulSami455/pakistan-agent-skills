@@ -23,11 +23,22 @@ Use this skill for the State Bank of Pakistan's (SBP) periodic "Special Section"
 - identifying SBP's discussion of IT-exporter policy measures (tax incentives, retention schemes)
 - distinguishing formally banked IT export receipts from freelancer/informal channel inflows as the special section frames them
 
+## Scope Clarification (Why This Is a Narrow, Standalone Skill)
+
+This skill covers SBP's own periodic thematic/"Special Section" write-ups on **IT & ITeS (IT-enabled services) exports as balance-of-payments data** — i.e., foreign-exchange receipts recorded against the IT/ITeS export category in Pakistan's external account. It is intentionally narrow because "IT export" figures circulate from several distinct, non-interchangeable sources in Pakistani public discourse, and conflating them is a common and consequential error:
+
+- **SBP (this skill)**: IT/ITeS export *receipts* — foreign exchange actually banked/repatriated through the formal banking channel and classified under services exports in the balance of payments. A financial-flow measure.
+- **PSEB (Pakistan Software Export Board)**: a separate government body under the Ministry of IT & Telecommunication that promotes and tracks the IT/ITeS industry (company registration, industry facilitation, and sometimes its own industry-size or export-potential estimates). PSEB's figures are not sourced by this skill and are not methodologically interchangeable with SBP's banked-receipts figures — do not substitute one for the other without flagging the difference in source and methodology.
+- **PTA (Pakistan Telecommunication Authority) / telecom-sector data**: covers telecom operators, teledensity, and mobile/broadband subscriber counts and telecom-sector revenue — a different sector and dataset from IT/ITeS software and services exports. Use `pta-telecom-indicators` for telecom-sector questions; telecom revenue is not a proxy for IT export earnings.
+- Because "IT exports"/"ICT exports" is used loosely across SBP, PSEB, and PBS/commerce-ministry trade data, always identify which specific source and classification a cited figure comes from before treating figures from different sources as comparable or additive.
+
 ## Routing Rules
 
 - Use this skill only for the dedicated IT/ICT special-section content. Use `sbp-annual-report` for SBP's general annual report narrative (monetary policy, financial stability, broader economic review) — that skill covers the report as a whole, not this specific feature chapter.
 - Use `pes-infrastructure-digital-and-climate` only for the Pakistan Economic Survey's brief IT/telecom chapter narrative, which does not carry SBP's balance-of-payments-based export analytical depth.
 - Use `i2i-startup-ecosystem-report` for venture-funding and ecosystem-player content; this skill is about export earnings and balance-of-payments classification, not startup funding.
+- Do not use this skill for PSEB's own industry reports, registrations, or industry-size estimates — PSEB is a distinct government body with its own tracking methodology, separate from SBP's BOP-based export receipts; note the mismatch explicitly if a user cites a PSEB figure alongside an SBP one.
+- Do not substitute telecom-sector data for IT/ITeS export questions — use `pta-telecom-indicators` only for telecom operator/subscriber/teledensity questions, a different sector and dataset from IT/ITeS software and services export receipts.
 - If the report edition under discussion does not contain an IT/ICT special section, say so rather than substituting general SBP export tables as if they were the deep-dive content.
 
 ## Extraction Workflow
