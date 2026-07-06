@@ -1,72 +1,74 @@
 ---
 name: psx-historical-data
-description: Historical PSX data skill for the psxdata package. Use when retrieving, validating, documenting, or extending historical OHLCV workflows with psxdata.stocks() for Pakistan Stock Exchange tickers and date ranges.
+description: PSX historical price-series skill. Use when retrieving, validating, or analyzing daily OHLCV (open/high/low/close/volume) history for a Pakistan Stock Exchange ticker over a date range, whether via the psxdata package or PSX's official historical data archives.
 ---
 
 # PSX Historical Data
 
 ## Overview
 
-Use this skill for historical price workflows built on `psxdata.stocks()`. Reach for it when the task is about daily price history, date-bounded retrieval, validation of historical rows, or changes to parsing and cache behavior that affect historical data only.
+Use this skill for date-bounded historical price series on one PSX ticker. This is not a live-quote skill (see `psx-company-snapshots`) and not a market-universe skill (see `psx-market-discovery`) — it is specifically about a time series of daily trading data.
+
+Two data-access paths exist and should not be conflated:
+- **Official source (authoritative)**: PSX Data Portal's historical data section (`https://dps.psx.com.pk`), which publishes daily market summaries and closing-price archives.
+- **`psxdata` Python package** (`psxdata.stocks()`): a convenience scraper; early-stage (0.1.0-alpha), single-maintainer. Adequate for exploratory analysis; for citation-grade time series (e.g., a backtest used in a research paper), cross-check against the official archive, since a scraper built on an unstable, low-adoption package can silently drop or misalign rows if the source page changes.
+
+## Domain Knowledge — PSX-Specific Historical Data Quirks
+
+- **Corporate action adjustments**: bonus shares, right shares, and stock splits create a mechanical discontinuity in a raw price series — a stock's closing price the day before and after a bonus/right issue is not directly comparable without adjustment (an ex-bonus/ex-right price drop is expected and is not a market movement). If the data source does not provide split/bonus-adjusted historical prices, flag this explicitly rather than treating the raw series as return-equivalent.
+- **Circuit breakers**: PSX's daily price-movement limit (a percentage band around the previous close) means some sessions show identical or near-identical high/low/close values when a stock is "locked" at its circuit limit — this is a real trading constraint, not a data error, but it also means the recorded close does not necessarily reflect unconstrained market-clearing price for that session.
+- **Trading calendar**: PSX trading days exclude weekends and gazetted public holidays specific to Pakistan (which differ from other countries' market calendars); do not assume a standard 252-trading-day year without checking Pakistan's specific holiday calendar for the years in question.
+- **Delisted or suspended tickers**: a company can be suspended from trading (regulatory action, corporate restructuring) or delisted entirely; a historical series that stops abruptly may reflect suspension/delisting rather than a data-retrieval failure — verify company status before assuming a gap is a scraping bug.
+- **Symbol reuse/changes**: tickers can occasionally be reassigned or a company's symbol changed after a merger, name change, or restructuring; a continuous-looking series spanning such an event may actually represent two different corporate entities.
 
 ## Use This Skill For
 
-- fetching historical OHLCV data for a ticker
-- working with start and end date ranges
-- validating historical price outputs
-- documenting or extending historical data usage
-- debugging broken historical retrieval after PSX HTML changes
+- fetching historical OHLCV data for a ticker over a date range
+- validating historical price data for internal consistency (OHLC relationships, duplicate/missing dates)
+- explaining a price discontinuity in a historical series (corporate action vs. circuit breaker vs. data gap)
+- documenting or extending `psxdata.stocks()` workflows
 
-## Function Surface
+## When Not to Use This Skill
 
-- `psxdata.stocks(symbol, start, end)` returns historical OHLCV data for one ticker.
-- Expect the main concerns here to be date parsing, table extraction, row normalization, and validation of market data constraints.
+- For a company's current/live quote — use `psx-company-snapshots`.
+- For the listed ticker universe, sectors, or index constituents — use `psx-market-discovery`.
+- For debt instruments or margin-eligible scrip lists — use `psx-debt-and-eligibility`.
+
+## Function Surface (psxdata package)
+
+- `psxdata.stocks(symbol, start, end)` returns historical OHLCV data for one ticker over the given date range.
 
 ## Workflow
 
-1. Confirm the target ticker symbol and date range.
-2. Use `psxdata.stocks(symbol, start, end)` for the retrieval.
-3. Verify that the output covers the expected dates.
-4. Check for duplicate dates, future dates, and invalid OHLC relationships.
-5. Preserve package behavior when extending parsing or validation logic.
+1. Confirm the target ticker symbol and the exact date range needed.
+2. Retrieve the series via `psxdata.stocks(symbol, start, end)` or the PSX Data Portal archive.
+3. Check for duplicate dates, future dates, and OHLC relationship violations (high below open/low/close; low above open/high/close).
+4. Check whether any known corporate action (bonus/right share, split) falls within the date range — if so, flag whether the series is adjusted or raw.
+5. Check for unexpected gaps and determine whether they reflect a holiday, a trading suspension, or a retrieval issue before treating the series as complete.
+
+## Technical Rules
+
+- Reject or flag rows with future dates.
+- Reject or flag duplicate dates for the same symbol rather than silently deduplicating in a way that could hide an upstream parsing bug.
+- Enforce OHLC consistency: high must be ≥ open, low, and close; low must be ≤ open, high, and close.
+- Do not treat an identical high/low/close across consecutive sessions as a data error without checking whether a circuit-breaker lock explains it.
+- Do not silently merge data across a known symbol change (post-merger/rename) as if it were one continuous entity without noting the change.
 
 ## Validation Checklist
 
-- Confirm the symbol is a real PSX ticker and keep the casing consistent.
-- Verify the returned rows fall within the requested `start` and `end` bounds.
-- Check that each date appears at most once.
-- Reject rows with future dates.
-- Check OHLC consistency:
-  - `high` should not be below `open`, `low`, or `close`
-  - `low` should not be above `open`, `high`, or `close`
-- Inspect row ordering before assuming time-series operations are safe.
+- Confirm the returned rows fall within the requested start/end bounds.
+- Confirm each date appears at most once for the given symbol.
+- Confirm OHLC relationships hold for every row.
+- Check whether a known corporate action falls within the range and whether the series is split/bonus-adjusted.
+- If there is a gap in the series, determine whether it corresponds to a market holiday, a trading suspension, or a genuine data problem.
 
-## Parsing And Data Rules
+## Common Pitfalls
 
-- Prefer dynamic column extraction from HTML headers instead of fixed column indices.
-- Treat PSX date formats as unstable; support multiple formats and fuzzy fallback parsing where already used by the package.
-- Do not silently tolerate malformed price rows if they break OHLC assumptions.
-- Keep numeric normalization explicit so volume and price fields do not drift into stringly typed outputs.
-
-## Working Rules
-
-- Normalize ticker input before processing.
-- Treat date parsing as fragile and avoid one-format assumptions.
-- Prefer resilient parsing over positional assumptions.
-- Keep historical cache behavior intact.
-- Use realistic PSX date ranges in examples and tests.
-
-## Cache And Retry Expectations
-
-- Historical data is expected to be cached aggressively because it changes infrequently.
-- Preserve existing retry behavior for transient network or upstream failures instead of removing retries to make tests pass.
-- When investigating failures, separate cache bugs from parser bugs before changing both.
-
-## Extension Guidance
-
-- When adding new historical fields, preserve existing column names and row semantics unless there is a strong compatibility reason to change them.
-- If PSX changes table structure, fix extraction logic first; do not paper over the issue with ticker-specific hacks.
-- Keep examples and tests focused on representative date ranges, not one-day happy paths only.
+- Treating a raw (unadjusted) price series as directly comparable across a bonus/right-share event.
+- Misreading a circuit-breaker-locked session as a parsing error.
+- Assuming a standard global trading calendar instead of Pakistan's actual market holiday calendar.
+- Silently bridging a series across a ticker symbol reassignment or corporate merger without flagging the discontinuity.
+- Trusting `psxdata` output as citation-grade without cross-checking the PSX Data Portal archive.
 
 ## Package Usage
 
@@ -76,12 +78,6 @@ import psxdata
 df = psxdata.stocks("ENGRO", start="2024-01-01", end="2024-12-31")
 ```
 
-## Technical Pitfalls
+## Reference
 
-- Off-by-one date filtering can quietly drop the first or last trading day.
-- HTML column reordering can corrupt fields if parsing still assumes fixed positions.
-- Duplicate-date merges can hide upstream parsing bugs if deduplication is done too early.
-- String cleanup on numeric columns can fail differently across prices, volumes, and empty columns.
-- Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
-- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/mtauha/psxdata`)
-- Historical OHLCV data sourced from PSX's daily market activity archives.
+- See [PSX Historical Data Reference](references/psx-historical-data.md) for corporate-action adjustment notes and trading-calendar guidance.

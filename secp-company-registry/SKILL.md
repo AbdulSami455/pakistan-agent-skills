@@ -68,3 +68,4 @@ Because of this, this skill should guide a human or agent through a **manual loo
 - SECP official website: `https://www.secp.gov.pk`
 - SECP eServices portal: `https://eservices.secp.gov.pk` (company search, tracking, complaints)
 - Company search: `https://eservices.secp.gov.pk/eServices/NameSearch.jsp`
+- See [SECP Company Registry Reference](references/secp-company-registry.md) for company categories, the separate LLP registration regime, and status-value definitions.

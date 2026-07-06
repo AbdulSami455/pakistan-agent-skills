@@ -63,6 +63,7 @@ Typical structure of the Annual Report includes a sector performance chapter, fi
 
 ## Reference
 
+- See [PTA Telecom Indicators Reference](references/pta-telecom-indicators.md) for the operator landscape (including the Ufone-Telenor merger), teledensity vs. unique-subscriber distinctions, and PTA's publication types.
 - PTA publishes Telecom Indicators and Annual Reports on its official website: `https://www.pta.gov.pk`
 - Telecom Indicators data: `https://www.pta.gov.pk/telecom-indicators` (under the "Indicators" or "Publications" section)
 - PTA Annual Reports: `https://www.pta.gov.pk/annual-reports`
