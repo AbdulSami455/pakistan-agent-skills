@@ -1,80 +1,73 @@
 ---
 name: psx-company-snapshots
-description: Company snapshot skill for the psxdata package. Use when retrieving, documenting, or extending company-level quote and fundamentals workflows with psxdata.quote() and psxdata.fundamentals() for Pakistan Stock Exchange tickers.
+description: PSX single-company data skill. Use when retrieving a live quote or financial fundamentals for one Pakistan Stock Exchange-listed company, whether via the psxdata package or PSX's official disclosures (PSX Data Portal, company financial statements filed under PSX/SECP disclosure rules).
 ---
 
 # PSX Company Snapshots
 
 ## Overview
 
-Use this skill for company-level package workflows that need current quote data or fundamentals for a single PSX ticker. Reach for it when the task is about one company’s latest tradable view or reported financial information, not broad market listings or historical series.
+Use this skill for company-level data on one PSX-listed ticker: its current tradable quote or its reported financial fundamentals. This is not a market-wide listing skill (see `psx-market-discovery`) and not a historical time-series skill (see `psx-historical-data`).
+
+Two data-access paths exist and should not be conflated:
+- **Official source (authoritative)**: PSX Data Portal (`https://dps.psx.com.pk`) for live/end-of-day quotes, and the company's own filings (quarterly/annual financial statements, notices) filed under PSX listing regulations and SECP's corporate disclosure requirements — these are the legally authoritative fundamentals, not any third-party aggregation.
+- **`psxdata` Python package**: a convenience scraper wrapping PSX pages; early-stage (0.1.0-alpha), single-maintainer. Fine for exploratory work; for anything citation-grade (a report figure, a research paper claim), verify against the company's actual filed financial statements or the PSX Data Portal.
+
+## Domain Knowledge
+
+- **Quote fields** typically include last traded price, change (absolute and percentage), volume, and day's high/low — these reflect the most recent trading session, not a real-time tick-by-tick feed, unless the source explicitly says otherwise.
+- **Fundamentals** for a PSX company are grounded in figures the company itself files: quarterly and annual financial statements (balance sheet, profit & loss, cash flow), submitted under the Companies Act 2017 and PSX/SECP disclosure timelines. Common fundamentals fields include EPS (earnings per share), P/E ratio, book value per share, dividend yield/payout, and market capitalization.
+- **Corporate actions** (bonus shares, right shares, cash dividends, stock splits) directly affect period-over-period comparability of price and per-share figures — a company's EPS or share price before and after a bonus/right issue is not directly comparable without adjustment.
+- **Circuit breakers**: PSX enforces daily price movement limits (a percentage band around the previous close) for most securities; a stock hitting its upper or lower circuit does not necessarily reflect the "true" market-clearing price for that session.
+- Financial year-ends vary by company (most Pakistani companies use a June 30 fiscal year-end, but some — e.g., companies aligned with a parent's calendar year — do not); do not assume a uniform reporting calendar across companies when comparing fundamentals.
 
 ## Use This Skill For
 
-- retrieving a live quote for one ticker
-- retrieving fundamentals for one ticker
-- documenting company-level package usage
-- extending quote or fundamentals handling
-- debugging quote or fundamentals extraction issues for a single company
+- retrieving a company's current/latest quote
+- retrieving a company's reported fundamentals (EPS, P/E, book value, dividend data)
+- explaining how a corporate action (bonus/right share, dividend) affects interpretation of a quote or fundamentals figure
+- documenting or extending `psxdata` company-level workflows (`quote()`, `fundamentals()`)
 
-## Function Surface
+## When Not to Use This Skill
+
+- For the listed ticker universe, sector classification, or index constituents — use `psx-market-discovery`.
+- For historical OHLCV price series over a date range — use `psx-historical-data`.
+- For debt instruments or margin-eligible scrip lists — use `psx-debt-and-eligibility`.
+- For formal company registration/legal status (as opposed to trading/financial data) — use `secp-company-registry`.
+
+## Function Surface (psxdata package)
 
 - `psxdata.quote(symbol)` retrieves the current quote view for one ticker.
-- `psxdata.fundamentals(symbol)` retrieves financial report or company fundamentals data for one ticker.
-- The main concerns are field stability, freshness, symbol normalization, and preserving dataset semantics.
+- `psxdata.fundamentals(symbol)` retrieves financial report or fundamentals data for one ticker.
 
 ## Workflow
 
-1. Confirm the target company symbol.
-2. Choose quote data or fundamentals based on the task.
-3. Use the matching package function.
-4. Check that the returned fields match expected package behavior.
-5. Preserve short-lived caching and validation behavior where applicable.
+1. Confirm the target company's ticker symbol (PSX symbols are typically 3-5 uppercase letters, e.g., `LUCK` for Lucky Cement, `ENGRO` for Engro Corporation).
+2. Determine whether the task needs a quote (current tradable view) or fundamentals (reported financial data).
+3. If precision matters, cross-check package output against the PSX Data Portal or the company's actual filed financial statements rather than relying on the package alone.
+4. Check for recent corporate actions (bonus/right shares, dividends) that would affect comparability of the figure being discussed.
+5. Note the company's fiscal year-end before describing a fundamentals figure as "latest annual" or "latest quarterly."
 
-## Quote Handling Rules
+## Technical Rules
 
-- Treat quote data as short-lived and time-sensitive.
-- Keep quote retrieval focused on one symbol per call path unless the package adds explicit batch behavior.
-- Validate that field names remain stable when upstream pages change labels or order.
-- Distinguish missing quote data from parser failure; do not collapse both into the same behavior without intent.
-
-## Fundamentals Handling Rules
-
-- Preserve report-level structure if the package returns multiple periods or grouped financial fields.
-- Be careful with partially missing fundamentals rows; missing values should not silently shift columns.
-- Keep company identity fields tied to the requested symbol so cross-company leakage is impossible.
-
-## Working Rules
-
-- Use `psxdata.quote(symbol)` for live quote retrieval.
-- Use `psxdata.fundamentals(symbol)` for company financial data.
-- Treat quote data as volatile and avoid stale assumptions.
-- Keep examples focused on one company symbol at a time.
-- Avoid pulling in index or sector workflows here.
-
-## Extension Guidance
-
-- When adding fields, prefer preserving existing naming and value semantics over cosmetic reshaping.
-- If upstream HTML changes, update extraction logic before changing user-facing outputs.
-- Keep cache behavior appropriate to data freshness:
-  - quote data should remain short-lived
-  - fundamentals can usually tolerate less frequent refresh
+- Treat quote data as time-sensitive and tied to the most recent session close (or live session if explicitly real-time) — do not present it as a static fact without a timestamp.
+- Distinguish "missing data" (a field not reported/not applicable) from a parsing failure; do not silently treat both the same way.
+- Do not compare EPS or per-share figures across a bonus/right-share event without noting the adjustment, since share count changes mechanically affect per-share metrics.
+- Keep fundamentals period-tagged (which quarter/year) rather than presenting a bare number.
 
 ## Validation Checklist
 
-- Confirm the returned data is for the requested symbol only.
-- Check for field drift caused by column reordering or renamed headers.
-- Verify missing financial values do not corrupt adjacent fields.
-- Inspect whether quote freshness assumptions still match cache duration.
+- Confirm the returned data corresponds to the requested symbol only (not a similarly-named or delisted ticker).
+- Check for a recent bonus/right share or stock split before treating a per-share metric as directly comparable to a prior period.
+- Confirm which fiscal period a fundamentals figure belongs to.
+- Cross-check any citation-grade figure against the PSX Data Portal or the company's own filed statements.
 
-## Technical Pitfalls
+## Common Pitfalls
 
-- Field names can change between PSX website revisions.
-- Pakistan Stock Exchange (PSX) official website: `https://www.psx.com.pk`
-- psxdata Python package: `https://pypi.org/project/psxdata/` (GitHub: `https://github.com/mtauha/psxdata`)
-- Validate that field names remain stable when upstream pages change labels or order.
-- Fundamentals tables often break through missing cells, merged headers, or period-grouping changes.
-- Over-normalizing labels can make new upstream fields indistinguishable from old ones.
+- Presenting a stale cached quote as current without a timestamp caveat.
+- Comparing EPS/book-value-per-share across a bonus or right issue without adjusting for the share-count change.
+- Treating psxdata package output as equivalent in authority to the company's actual SECP/PSX filings.
+- Assuming every PSX company uses a June 30 fiscal year-end.
 
 ## Package Usage
 
@@ -84,3 +77,7 @@ import psxdata
 quote = psxdata.quote("LUCK")
 fundamentals = psxdata.fundamentals("LUCK")
 ```
+
+## Reference
+
+- See [PSX Company Snapshots Reference](references/psx-company-snapshots.md) for fundamentals field definitions and corporate-action handling notes.
