@@ -2,10 +2,10 @@
 
 ## Source
 
-- Pakistan Civil Aviation Authority (PCAA) — following the August 2024 restructuring, aviation regulatory functions sit with PCAA while airport operations sit with the separate Pakistan Airports Authority (PAA)
+- Pakistan Civil Aviation Authority (PCAA) — under the Pakistan Airports Authority Act, 2023 and Pakistan Civil Aviation Authority Act, 2023 (operationalized in 2024), Pakistan's civil aviation functions were split three ways: PCAA retains air-safety and regulatory/licensing functions, airport operations (and their traffic statistics) moved to the newly created Pakistan Airports Authority (PAA), and aircraft accident/incident investigation moved to a separate Aircraft Accident and Incident Investigation Board (AAIIB). Treat the exact 2024 operationalization date as approximate and re-verify against current PCAA/PAA publications rather than citing a specific month.
 - PCAA official website: `https://pcaa.gov.pk`
 - Pakistan Airports Authority (PAA): `https://paa.gov.pk`
-- Statistical Digest and traffic statistics: `https://pcaa.gov.pk/portals` (under the "Statistics" or "Publications" section)
+- Statistical Digest and traffic statistics: check both PCAA and PAA publications sections, since airport-wise traffic statistics may now be published by PAA rather than PCAA going forward — confirm which body issued the specific edition being cited.
 
 ## Structure Notes
 

@@ -27,6 +27,7 @@ Use this skill for Pakistan's civil aviation traffic statistics drawn from the P
 
 - Use this skill for PCAA's own aviation-specific statistical digest. Use `pes-infrastructure-digital-and-climate` only for the Pakistan Economic Survey's transport and communications chapter narrative, which summarizes aviation at a much higher level and does not carry airport-wise or airline-wise granularity.
 - If the question concerns airport infrastructure investment or policy rather than traffic statistics, treat the Statistical Digest as a secondary source and note that policy narrative may sit in PCAA annual reports or PES instead.
+- Pakistan's civil aviation sector was restructured in 2024 (Pakistan Airports Authority Act, 2023 and PCAA Act, 2023): airport operations and their traffic statistics moved to the newly created Pakistan Airports Authority (PAA), while PCAA retained regulatory/safety-licensing functions, and aircraft accident investigation moved to a separate Aircraft Accident and Incident Investigation Board. For editions from 2024 onward, confirm whether the "Statistical Digest" (or its successor publication) is now issued by PAA rather than PCAA before citing a source agency.
 
 ## Extraction Workflow
 
