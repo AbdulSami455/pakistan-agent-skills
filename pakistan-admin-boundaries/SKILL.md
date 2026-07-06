@@ -68,6 +68,7 @@ Each level typically carries: a name field, a standardized P-code (Pakistan admi
 
 ## Reference
 
+- See [Pakistan Admin Boundaries Reference](references/pakistan-admin-boundaries.md) for the province/territory list, known district splits, and P-code conventions.
 - HDX (Humanitarian Data Exchange) COD-AB Pakistan dataset, maintained by UN OCHA, is the authoritative source for boundary geometry and the P-code hierarchy
 - HDX dataset page: `https://data.humdata.org/dataset/cod-ab-pak`
 - UN OCHA Pakistan: `https://www.unocha.org/pakistan`
