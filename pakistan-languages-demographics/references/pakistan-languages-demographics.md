@@ -13,7 +13,7 @@
 - Pashto: second-largest (~18%).
 - Sindhi: (~14%).
 - Saraiki: (~12%).
-- Urdu: mother tongue of a comparatively small share (~9%) despite being the national language/lingua franca understood by a large majority of the population.
+- Urdu: mother tongue of a comparatively small share (~7%) despite being the national language/lingua franca understood by a large majority of the population.
 - Balochi and other languages make up the remainder, alongside dozens of smaller indigenous languages.
 
 ## Provincial Linguistic Profiles

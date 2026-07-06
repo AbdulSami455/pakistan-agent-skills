@@ -16,7 +16,7 @@ Use this skill as a quick reference for Pakistan's UNESCO World Heritage Sites a
 - **Taxila** — Punjab; inscribed 1980; Gandharan Buddhist archaeological complex spanning multiple sites.
 - **Historical Monuments at Makli, Thatta** — Sindh; inscribed 1981; necropolis with monumental tombs.
 - **Fort and Shalamar Gardens in Lahore** — Punjab; inscribed 1981 (Lahore Fort and Shalamar Gardens are a single combined inscription).
-- **Rohtas Fort** — Punjab; inscribed 1992; Sher Shah Suri-era fortification.
+- **Rohtas Fort** — Punjab; inscribed 1997; Sher Shah Suri-era fortification.
 
 Note: counts and exact inscription years should be re-verified against the UNESCO World Heritage Centre's official list if precision is required, since this skill is a static reference snapshot and UNESCO listings are the authoritative source of record.
 
