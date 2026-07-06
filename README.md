@@ -187,6 +187,12 @@ Notes:
 - Use `who-pakistan-health-statistics` or `unicef-pakistan-data` for internationally standardized health and child indicators.
 - Use `pmd-weather-climate-data` for weather observations, climate normals, or seasonal forecasts.
 - Use `world-bank-pakistan-indicators` or `adb-pakistan-indicators` for multilateral development indicators with cross-country comparability.
+- Use `ccp-competition-enforcement` for antitrust/competition matters (mergers, cartels, abuse of dominance) — distinct from `secp-company-registry`'s securities/registration mandate.
+- Use `provincial-sales-tax-authorities` for sales tax on services (PRA/SRB/KPRA/BRA) — distinct from `fbr-individual-tax-filing` and `fbr-customs-tariff`, which cover federal taxes on goods/income/customs.
+- Use `ppra-public-procurement` for government tender/procurement rules and processes, federal or provincial.
+- Use `agp-audit-reports` for Auditor General financial/compliance audit findings ("audit paras") — distinct from `nab-accountability-data`, which covers criminal corruption investigations and prosecutions.
+- Use `nab-accountability-data` for NAB's accountability pipeline (inquiry, investigation, reference, plea bargain, recovery figures).
+- Use `nccia-cybercrime-peca` for PECA cybercrime enforcement questions — note NCCIA (est. April 2025) superseded FIA's NR3C; treat "NR3C" as outdated if encountered.
 
 ## Contribution Guide
 
