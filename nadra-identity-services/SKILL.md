@@ -28,7 +28,7 @@ Use this skill for Pakistan's National Database and Registration Authority (NADR
 
 ## When Not to Use This Skill
 
-- For passport application/renewal — passports are issued by the Directorate General of Immigration & Passports / Ministry of Foreign Affairs, a separate agency from NADRA; do not conflate the two even though they are often needed together.
+- For passport application/renewal — passports are issued by the Directorate General of Immigration & Passports (DGIP), an attached department of the Ministry of Interior, not the Ministry of Foreign Affairs and not NADRA; do not conflate these three agencies even though they are often needed together.
 - For tracking a specific individual's live application status — direct the user to NADRA's official tracking channel rather than asserting a status.
 - For voter registration specifics — while CNIC is the basis for electoral rolls, voter-list questions belong with the Election Commission of Pakistan, not this skill.
 

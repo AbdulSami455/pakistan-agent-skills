@@ -5,7 +5,7 @@
 - National Database and Registration Authority (NADRA), Government of Pakistan
 - NADRA official website: `https://www.nadra.gov.pk`
 - Pak-Identity (online ID issuance service): `https://id.nadra.gov.pk/e-id/`
-- Passport services are handled separately by the Directorate General of Immigration & Passports / Ministry of Foreign Affairs, not NADRA — see `https://mofa.gov.pk/passport` for that separate process.
+- Passport services are handled separately by the Directorate General of Immigration & Passports (DGIP), an attached department of the Ministry of Interior — not NADRA and not the Ministry of Foreign Affairs. See `https://dgip.gov.pk` for that separate process.
 
 ## Document Types
 
