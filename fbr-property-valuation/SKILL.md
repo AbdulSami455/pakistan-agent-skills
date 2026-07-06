@@ -1,19 +1,20 @@
 ---
 name: fbr-property-valuation
-description: FBR property valuation skill. Use when analyzing, summarizing, comparing, or extracting information from FBR notified property valuation tables and SROs, especially for city-wise property valuation rates used to compute capital gains tax and withholding tax on property transactions.
+description: FBR property valuation skill. Use when analyzing, summarizing, comparing, or extracting information from FBR notified property valuation tables and SROs, especially for city-wise property valuation rates used to compute capital gains tax and withholding tax on property transactions, as distinct from provincial DC (Deputy Commissioner) rates used for stamp duty.
 ---
 
 # FBR Property Valuation
 
 ## Overview
 
-Use this skill for FBR's notified property valuation tables, issued through SROs (Statutory Regulatory Orders) on a per-city, irregular basis. These valuation rates set the minimum value FBR uses for tax purposes (capital gains tax, withholding tax) on property transactions, distinct from market/DC (Deputy Commissioner) rates.
+Use this skill for FBR's notified property valuation tables, issued through SROs (Statutory Regulatory Orders) under Section 68 of the Income Tax Ordinance, 2001, on a per-city, irregular basis. These valuation rates set the minimum ("fair market") value FBR uses for federal tax purposes (capital gains tax, withholding tax on sale/purchase) on property transactions, distinct from market/DC (Deputy Commissioner) rates, which are a separate, typically lower, provincial valuation used for stamp duty and registration fee purposes.
 
 ## Coverage
 
-- City-wise valuation tables: notified per-square-yard or per-square-foot rates for specified areas/sectors/blocks within a city.
-- Coverage is irregular and city-specific — not all cities are notified at the same time, and tables are revised periodically through new SROs rather than on a fixed annual cycle.
-- Valuation tables apply to both residential and commercial property categories where notified, and may distinguish open plots from constructed property.
+- City-wise valuation tables: notified per-square-yard, per-square-foot, or per-marla rates for specified areas/sectors/blocks/phases within a city.
+- **Coverage is incomplete and uneven across the country.** FBR has historically notified valuation tables for its major/high-transaction-volume cities first and in the most detail — most notably **Islamabad, Karachi, and Lahore** — with progressively less granular or later-arriving coverage for other large cities (e.g., Rawalpindi, Faisalabad, Multan, Peshawar, Quetta, Gujranwala, Sialkot, Hyderabad, and other provincial/divisional headquarters). Many smaller cities, towns, and rural areas have **no FBR-notified valuation table at all**, in which case FBR falls back to the DC rate (or another statutory default) for tax purposes in that area — do not assume every location in Pakistan has an FBR table.
+- Revision cadence is **periodic but irregular, not on a guaranteed fixed schedule**. In practice, FBR has revised valuation tables roughly on an annual-ish cadence in recent years (as part of a broader push to align notified values closer to actual market values), but specific cities have gone multiple years without revision, and revisions for different cities are not synchronized — one city's table may be updated while another's remains unchanged for a longer period. Do not assume a fixed "every year" or "every July" revision cycle applies uniformly; always check the specific SRO date for the city/area in question.
+- Valuation tables apply to both residential and commercial property categories where notified, and may distinguish open plots from constructed property (with constructed property sometimes valued via a combination of land rate plus a separate construction/covered-area rate).
 
 ## Use This Skill For
 
@@ -51,12 +52,7 @@ Use this skill for FBR's notified property valuation tables, issued through SROs
 - Verify the SRO number and effective date used are the most recent applicable to the transaction date in question.
 - Check whether the rate cited is for residential, commercial, or a combined category.
 - Confirm the unit of measurement before using the rate in any calculation.
-
-## Reference
-
-- FBR official website: `https://www.fbr.gov.pk`
-- Property valuation SROs and notifications: `https://www.fbr.gov.pk/SROs/1814` (under the "Legal" or "SROs" section)
-- Current valuation tables: `https://www.fbr.gov.pk/Property-Valuation/1805` (under the "Revenue" or "Property Valuation" section)
+- Confirm whether the city/area in question has an FBR-notified table at all before assuming one exists — coverage is incomplete, especially for smaller cities.
 
 ## Common Pitfalls
 
@@ -64,3 +60,8 @@ Use this skill for FBR's notified property valuation tables, issued through SROs
 - Applying a superseded SRO's rate to a transaction that falls under a newer notification.
 - Assuming every city or every area within a notified city has a published valuation rate.
 - Mixing up per-square-yard and per-marla rates when comparing tables across cities.
+- Assuming a fixed annual revision cycle applies uniformly to every city's table when revisions are actually irregular and city-specific.
+
+## Reference
+
+- See [FBR Property Valuation Reference](references/fbr-property-valuation.md) for city coverage notes, revision-cadence caveats, and source-verification guidance.
