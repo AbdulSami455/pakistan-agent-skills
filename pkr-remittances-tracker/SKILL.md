@@ -55,6 +55,7 @@ Use this skill for SBP's monthly workers' remittances data, published as structu
 
 ## Reference
 
+- See [PKR Remittances Tracker Reference](references/pkr-remittances-tracker.md) for the country/corridor breakdown, the Home Remittances vs. BOP distinction, and fiscal-year-to-date conventions.
 - State Bank of Pakistan: `https://www.sbp.org.pk`
 - Remittances data: `https://www.sbp.org.pk/ecodata/index2.asp` (Economic Data section, Workers' Remittances)
 - Published as monthly CSV/Excel tables; table structure is consistent but column headers may be revised.
