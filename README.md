@@ -188,6 +188,16 @@ Notes:
 - Use `ajk-development-statistics` or `gb-development-statistics` for territory-specific socioeconomic indicators.
 - Use `who-pakistan-health-statistics` or `unicef-pakistan-data` for internationally standardized health and child indicators.
 - Use `pmd-weather-climate-data` for weather observations, climate normals, or seasonal forecasts.
+- Use `pakistan-river-basin-hydrology` for river flows, barrage discharges, canal withdrawals, and basin-level hydrological conditions across the Indus system.
+- Use `pakistan-earthquake-seismic-hazard` for earthquake bulletins, event parameters, aftershock context, and seismic hazard framing.
+- Use `pakistan-geology-mineral-resources` for geology, formations, mineral occurrence references, and province-linked resource belts.
+- Use `pakistan-protected-areas-biodiversity` for national parks, wildlife sanctuaries, Ramsar sites, and conservation-status questions.
+- Use `pakistan-forests-land-cover` for forest extent, mangroves, afforestation, and official land-cover reporting.
+- Use `pakistan-agro-climatic-zones` for crop suitability, agro-ecological zoning, and sowing/harvest calendar questions.
+- Use `pakistan-national-curriculum-textbooks` for curriculum scope, grade-subject mapping, and textbook-board alignment.
+- Use `pakistan-learning-assessments` for literacy, numeracy, and competency-based learning outcomes.
+- Use `pakistan-school-infrastructure-wash` for school-facility indicators such as drinking water, toilets, electricity, and boundary walls.
+- Use `pakistan-board-exam-results` for SSC/HSSC result gazettes, pass percentages, and board-wise result summaries.
 - Use `world-bank-pakistan-indicators` or `adb-pakistan-indicators` for multilateral development indicators with cross-country comparability.
 - Use `ccp-competition-enforcement` for antitrust/competition matters (mergers, cartels, abuse of dominance) — distinct from `secp-company-registry`'s securities/registration mandate.
 - Use `provincial-sales-tax-authorities` for sales tax on services (PRA/SRB/KPRA/BRA) — distinct from `fbr-individual-tax-filing` and `fbr-customs-tariff`, which cover federal taxes on goods/income/customs.
