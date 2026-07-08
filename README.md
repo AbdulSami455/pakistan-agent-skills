@@ -167,8 +167,10 @@ Notes:
 - Use `psx-company-snapshots` for `quote` or `fundamentals`.
 - Use `psx-debt-and-eligibility` for `debt_market` or `eligible_scrips`.
 - Use `pes-macro-and-prices` for GDP growth, macro overview, or inflation.
+- Use `sbp-statistics-bulletin` for reserves, exchange rates, monetary aggregates, banking-sector balance-sheet data, and other SBP time-series tables.
 - Use `pes-real-sectors` for agriculture, manufacturing, or mining.
 - Use `pes-fiscal-financial-and-debt` for deficits, policy rates, markets, or debt.
+- Use `agpr-fiscal-operations` for actual federal receipts, expenditure, borrowing, cash balances, and fiscal outturns.
 - Use `pes-external-sector` for exports, imports, remittances, reserves, or current account.
 - Use `pes-social-sectors` for education, health, labour, population, poverty, or inequality.
 - Use `pes-infrastructure-digital-and-climate` for transport, energy, IT, telecom, or climate.
@@ -193,6 +195,7 @@ Notes:
 - Use `agp-audit-reports` for Auditor General financial/compliance audit findings ("audit paras") — distinct from `nab-accountability-data`, which covers criminal corruption investigations and prosecutions.
 - Use `nab-accountability-data` for NAB's accountability pipeline (inquiry, investigation, reference, plea bargain, recovery figures).
 - Use `nccia-cybercrime-peca` for PECA cybercrime enforcement questions — note NCCIA (est. April 2025) superseded FIA's NR3C; treat "NR3C" as outdated if encountered.
+- Use `pakistan-gazette-notifications` for official gazette publication dates, Acts, Ordinances, SROs, and formal notifications.
 
 ## Contribution Guide
 
