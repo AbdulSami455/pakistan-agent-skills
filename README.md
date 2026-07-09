@@ -201,6 +201,12 @@ Notes:
 - Use `world-bank-pakistan-indicators` or `adb-pakistan-indicators` for multilateral development indicators with cross-country comparability.
 - Use `ccp-competition-enforcement` for antitrust/competition matters (mergers, cartels, abuse of dominance) — distinct from `secp-company-registry`'s securities/registration mandate.
 - Use `provincial-sales-tax-authorities` for sales tax on services (PRA/SRB/KPRA/BRA) — distinct from `fbr-individual-tax-filing` and `fbr-customs-tariff`, which cover federal taxes on goods/income/customs.
+- Use `secp-annual-returns-beneficial-ownership` for annual return filing, change filings, and beneficial-ownership compliance after incorporation.
+- Use `eobi-employer-contributions` for employer registration and old-age benefit contribution workflow under EOBI.
+- Use `provincial-social-security-employer-registration` for provincial employee social security registration and contribution workflow.
+- Use `workers-welfare-fund-profit-participation` for WWF and WPPF applicability, calculation framing, and statutory worker-welfare obligations.
+- Use `ipo-pakistan-trademarks` for trademark search, filing, opposition, and renewal workflow through IPO Pakistan.
+- Use `pakistan-single-window-trade-operations` for import/export clearance workflow and document processing through Pakistan Single Window.
 - Use `ppra-public-procurement` for government tender/procurement rules and processes, federal or provincial.
 - Use `agp-audit-reports` for Auditor General financial/compliance audit findings ("audit paras") — distinct from `nab-accountability-data`, which covers criminal corruption investigations and prosecutions.
 - Use `nab-accountability-data` for NAB's accountability pipeline (inquiry, investigation, reference, plea bargain, recovery figures).
