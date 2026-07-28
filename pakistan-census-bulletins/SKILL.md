@@ -70,4 +70,4 @@ Use this skill for questions about Pakistan's decadal Population & Housing Censu
 
 ## Reference
 
-- See [Census Bulletins Reference](references/census-bulletins.md) for bulletin structure and extraction notes.
+- See [Census Bulletins Reference](references/pakistan-census-bulletins.md) for bulletin structure and extraction notes.
