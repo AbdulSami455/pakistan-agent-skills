@@ -15,7 +15,7 @@
 
 - Apex-level research coordination across federal and provincial agricultural research institutes and universities.
 - Capacity building: training and workshops for farmers, researchers, and extension workers.
-- Extension/technology transfer: facilitating the transfer of research findings and technologies to the farming community, distinct from PARC's own research-generation activity.
+- Extension/technology transfer: transferring research findings and technologies to the farming community, distinct from PARC's own research-generation activity.
 
 ## Extraction Notes
 

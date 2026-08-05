@@ -12,7 +12,7 @@ Use this skill for Pakistan's national arts and cultural-promotion institutions,
 ## Coverage
 
 - PNCA's mandate: protecting, promoting, and disseminating Pakistani arts and culture domestically and internationally, spanning visual arts, performing arts, and cultural heritage promotion.
-- Performing arts divisions: the National Performing Arts Group (NPAG), presenting music, theatre, and dance programs representing Pakistan's diverse provincial and regional traditions; the Puppet Theatre (established 1975), reviving traditional folk string puppetry through regular shows.
+- Performing arts divisions: the National Performing Arts Group (NPAG), presenting music, theatre, and dance programs drawn from Pakistan's diverse provincial and regional traditions; the Puppet Theatre (established 1975), reviving traditional folk string puppetry through regular shows.
 - Provincial arts councils: PNCA works in partnership with provincial-level arts councils (Punjab, Sindh, Khyber Pakhtunkhwa, Balochistan, Gilgit-Baltistan, and Azad Jammu & Kashmir), each separately promoting regional cultural activity — do not assume PNCA directly runs all provincial cultural programming.
 - National Heritage & Culture Division: the federal government division under which PNCA and related cultural bodies (e.g., the National Art Gallery) operate, distinct from provincial culture departments.
 - Adjacent but distinct institutions: literature-specific promotion sits with the Pakistan Academy of Letters (PAL, covered separately), while formally UNESCO-inscribed heritage sites are covered by a dedicated UNESCO-sites reference — PNCA's own focus is broader performing/visual-arts promotion rather than either of those specific domains.

@@ -50,7 +50,7 @@ Use this skill for Pakistan Institute of Development Economics (PIDE) working pa
 
 - Confirm the paper's title, author(s), and publication year match the citation.
 - Verify whether a number cited is the paper's own estimate or a figure the paper quotes from another source (e.g. PBS, SBP).
-- Check whether the paper presents a finding as preliminary/exploratory or as a robust conclusion.
+- Check whether the paper presents a finding as preliminary/exploratory or as a strong conclusion.
 - Confirm policy recommendations are clearly separated from the empirical analysis section.
 
 ## Reference

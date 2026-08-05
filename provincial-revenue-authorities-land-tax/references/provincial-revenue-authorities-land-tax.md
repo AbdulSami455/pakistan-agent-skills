@@ -17,7 +17,7 @@
 
 ## Land Record Digitization
 
-- **Punjab**: The Punjab Land Records Authority (PLRA), established to modernize and computerize land records, operates the Arazi Record Management Information System (ARMIS) and associated Land Record Management Information System (LRMIS) infrastructure, enabling computerized Fard (record-of-rights) issuance through Arazi Record Centers, replacing manual patwari-register lookups for many transactions. This is the most extensively documented provincial digitization program.
+- **Punjab**: The Punjab Land Records Authority (PLRA), established to modernize and computerize land records, operates the Arazi Record Management Information System (ARMIS) and associated Land Record Management Information System (LRMIS) infrastructure, allowing computerized Fard (record-of-rights) issuance through Arazi Record Centers, replacing manual patwari-register lookups for many transactions. This is the most extensively documented provincial digitization program.
 - **Other provinces**: Sindh, Khyber Pakhtunkhwa, and Balochistan have pursued their own land-record computerization efforts with different institutional names, timelines, and coverage levels; do not assume PLRA/ARMIS branding or rollout maturity applies to other provinces. Verify the current program name and district-level coverage status for any province other than Punjab before citing specifics.
 
 ## Agricultural Income Tax

@@ -16,7 +16,7 @@ Use this skill for the Pakistan Engineering Council's (PEC) role as the statutor
 - Firm/consultancy registration: engineering consulting firms and construction firms must separately register with PEC (as distinct from individual engineer registration) to be eligible to bid on or execute public-sector engineering works, categorized by discipline and financial/technical capacity.
 - Construction & Operation of Engineering Works Bye-Laws (originally 1987, subject to amendment) set out the categories of "engineering works" (e.g., structural categories including buildings, bridge structures) and the registration/experience prerequisites tied to each category — this bye-law structure is the mechanism that links a named engineer's registration to the class of structural work they may legally undertake.
 - PEC Registration Policy (periodically updated — a 2017 policy has been reissued/updated in subsequent years, e.g., a July 2024 update) sets out current eligibility criteria, application procedure, and category definitions for both engineers and firms.
-- PEC also plays a convening role in national engineering-code development (e.g., it convened the task force that produced BCP-SP 2007) and holds a broader engineering-standards mandate distinct from any single code.
+- PEC convenes national engineering-code development (e.g., it convened the task force that produced BCP-SP 2007) and holds a broader engineering-standards mandate distinct from any single code.
 
 ## Use This Skill For
 

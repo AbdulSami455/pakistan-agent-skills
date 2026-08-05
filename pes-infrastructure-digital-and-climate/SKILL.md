@@ -7,7 +7,7 @@ description: Pakistan Economic Survey infrastructure, digital, and climate skill
 
 ## Overview
 
-Use this skill for Pakistan Economic Survey questions about transport, communications, energy, IT, telecommunication, and climate change. This is the right skill when the task is about enabling infrastructure, connectivity, digital-sector development, energy-sector indicators, or climate-response themes.
+Use this skill for Pakistan Economic Survey questions about transport, communications, energy, IT, telecommunication, and climate change. This is the right skill when the task is about infrastructure that enables development, connectivity, digital-sector development, energy-sector indicators, or climate-response themes.
 
 ## Chapter Coverage
 

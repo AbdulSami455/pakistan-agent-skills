@@ -13,8 +13,8 @@ Use this skill for the Pakistan Agricultural Research Council (PARC), the apex n
 
 - PARC's mandate: apex-level coordination of agricultural research at the national level, working alongside provincial agricultural research institutes, agricultural universities, and provincial agriculture/livestock/forestry departments.
 - Divisions: PARC is organized into technical divisions (Plant Sciences, Animal Sciences, Social Sciences, Natural Resources, Agricultural Engineering) and services divisions (Finance, Coordination & Monitoring), each covering a distinct research/support function.
-- Governance: PARC's Board of Governors includes provincial Secretaries of Agriculture/Livestock/Forestry Departments and Vice Chancellors of agricultural universities alongside farmer representation, reflecting its coordinating (not sole-implementer) role across the national agricultural research system.
-- Extension and technology transfer: PARC supports farmer capacity building through training and workshops, and facilitates transfer of research findings/technologies to the farming community — this extension function is distinct from PARC's own research-generation function.
+- Governance: PARC's Board of Governors includes provincial Secretaries of Agriculture/Livestock/Forestry Departments and Vice Chancellors of agricultural universities alongside farmer representation, showing its coordinating (not sole-implementer) role across the national agricultural research system.
+- Extension and technology transfer: PARC supports farmer capacity building through training and workshops, and transfers research findings/technologies to the farming community — this extension function is distinct from PARC's own research-generation function.
 - Related programs: PARC has been associated with specific technology-transfer or agricultural-linkage initiatives (e.g., programs connecting research output to farmer-level application) alongside its core research divisions.
 
 ## Use This Skill For
