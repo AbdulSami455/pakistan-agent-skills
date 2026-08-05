@@ -212,6 +212,31 @@ Notes:
 - Use `nab-accountability-data` for NAB's accountability pipeline (inquiry, investigation, reference, plea bargain, recovery figures).
 - Use `nccia-cybercrime-peca` for PECA cybercrime enforcement questions — note NCCIA (est. April 2025) superseded FIA's NR3C; treat "NR3C" as outdated if encountered.
 - Use `pakistan-gazette-notifications` for official gazette publication dates, Acts, Ordinances, SROs, and formal notifications.
+- Use `ipo-pakistan-patents-copyrights` for patent/copyright registration and enforcement — distinct from `ipo-pakistan-trademarks`, which covers trademarks only.
+- Use `sbp-raast-digital-payments` for RAAST instant-payment mechanics, EMI/PSO/PSP licensing, and digital-payments regulation.
+- Use `federal-ombudsman-wafaqi-mohtasib` for maladministration complaints against federal agencies and the specialized ombudsman institutions (Banking, Insurance, Federal Tax).
+- Use `cpec-sez-authority-framework` for CPEC institutional structure and Special Economic Zone fiscal/facilitation framework — distinct from `gwadar-port-cargo-reports`'s port-operations data.
+- Use `fpsc-civil-service-recruitment` for CSS competitive exam structure, occupational groups, and FPSC eligibility — distinct from `nts-testing-service`.
+- Use `pakistan-zakat-ushr-system` for the statutory Zakat/Ushr deduction-at-source system and Zakat Council structure — distinct from `bisp-social-protection-statistics`.
+- Use `fbr-sales-tax-federal` for federal Sales Tax Act 1990 mechanics on goods — distinct from `provincial-sales-tax-authorities` (services) and `fbr-individual-tax-filing` (income tax).
+- Use `secp-modaraba-regulation` for Modaraba structure, licensing, and Religious Board oversight — distinct from `mufap-mutual-funds`.
+- Use `pakistan-anti-money-laundering-enforcement` for AMLA 2010, FMU, and the money-laundering investigation/prosecution pipeline — distinct from `nab-accountability-data`'s corruption-specific pipeline.
+- Use `provincial-revenue-authorities-land-tax` for provincial Boards of Revenue, agricultural income tax, and stamp duty — distinct from `fbr-property-valuation`'s federal withholding-tax valuation tables.
+- Use `pakistan-solar-net-metering-policy` for rooftop solar net-metering rules and DISCO interconnection — distinct from `nepra-tariff-determinations`'s utility-scale tariffs.
+- Use `pakistan-mining-royalty-fiscal-regime` for mineral royalty rates and mining fiscal terms — distinct from `pakistan-geology-mineral-resources`'s geology facts.
+- Use `pakistan-textile-export-policy` for textile export incentives, EFS, and GSP+ status — distinct from `tdap-trade-reports`'s general trade data.
+- Use `pakistan-cng-lpg-sector-regulation` for CNG/LPG-specific OGRA licensing and pricing mechanics — distinct from `ogra-petroleum-industry-reports`'s broader petroleum data.
+- Use `psx-index-methodology` for KSE-100/KSE-30/KMI-30 index construction and rebalancing — distinct from `psx-historical-data` and `psx-company-snapshots`.
+- Use `pakistan-family-law-courts` for Family Court jurisdiction, nikah/talaq/khula procedure, and custody/guardianship — distinct from `ljcp-judicial-statistics`'s caseload numbers.
+- Use `pakistan-criminal-procedure-fir` for FIR registration, cognizable/non-cognizable offences, and bail framework under CrPC 1898.
+- Use `pakistan-mental-health-substance-abuse` for Mental Health Ordinance 2001, ANF mandate, and drug-scheduling framework.
+- Use `pakistan-disability-rights-framework` for disability-rights legislation, employment quota, and CRPD context.
+- Use `pakistan-child-protection-laws` for Juvenile Justice System Act 2018, child-marriage law, and the Zainab Alert Act — distinct from `unicef-pakistan-data`'s statistics.
+- Use `secp-futures-commodity-exchange` for PMEX commodity futures regulation — distinct from `psx-market-discovery`'s equity market.
+- Use `pta-numbering-licensing-framework` for telecom license categories, numbering plan, and DIRBS/SIM biometric verification — distinct from `pta-telecom-indicators`'s statistics.
+- Use `pemra-broadcast-licensing-framework` for broadcast license categories, fees, and landing rights — distinct from `pemra-media-regulation`'s content-regulation focus.
+- Use `pakistan-defense-budget-framework` for unclassified defense-budget presentation structure in Federal Budget documents.
+- Use `ppra-e-procurement-portal` for e-PADS vendor registration and bid-security mechanics — distinct from `ppra-public-procurement`'s procurement-method/threshold rules.
 
 ## Contribution Guide
 
