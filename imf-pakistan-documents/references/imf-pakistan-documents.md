@@ -21,7 +21,7 @@
 
 ## Extraction Notes
 
-- Each review is numbered (e.g. first, second review) and revises targets going forward; always anchor any cited target to its specific review document.
+- Each review is numbered (e.g. first, second review) and revises targets; always anchor any cited target to its specific review document.
 - Performance criteria are typically tested at specific test dates; structural benchmarks have due dates that may be reset/rephased across reviews — track both carefully.
 - IMF staff projections (growth, inflation, fiscal aggregates) are IMF's own and frequently differ from the government's PES figures for the same period; note both where relevant for comparison tasks.
 - The MEFP, where annexed, represents the government's stated commitments and can be a useful cross-check against the federal budget documents for the same fiscal year.

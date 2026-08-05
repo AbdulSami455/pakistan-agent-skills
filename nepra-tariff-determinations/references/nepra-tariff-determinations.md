@@ -13,7 +13,7 @@
 - Petition summary: what tariff or adjustment the licensee requested.
 - NEPRA's analysis: cost-of-service review, return-on-equity/return-on-equity-during-construction assumptions (for generation), or revenue requirement analysis (for distribution).
 - Approved tariff structure: capacity and energy payment components (generation) or slab/fixed-variable structure (distribution).
-- Effective date and, where applicable, indexation or adjustment mechanism going forward.
+- Effective date and, where applicable, indexation or adjustment mechanism.
 
 ## Key Indicator Types
 
