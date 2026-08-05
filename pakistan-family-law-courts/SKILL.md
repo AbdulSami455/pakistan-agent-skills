@@ -61,7 +61,7 @@ Use this skill when a task requires explaining the substantive or procedural fam
 - Talaq is a husband-initiated, extra-judicial act that only becomes legally effective after the MFLO's written-notice and 90-day reconciliation procedure is completed (absent reconciliation/revocation) — a bare oral pronouncement without the notice procedure does not, by itself, complete a legally effective talaq for registration/documentation purposes.
 - Khula is wife-initiated and does not require proving fault; it is decreed by the Family Court and conventionally involves the wife returning/forgoing dower, distinguishing it from both talaq and the fault-based grounds under the Dissolution of Muslim Marriages Act 1939.
 - Custody (day-to-day physical care) and guardianship (legal/property authority) are legally distinct concepts under the Guardian and Wards Act 1890, even though the same person may hold both in practice; do not use the terms interchangeably.
-- The paramount and overriding legal standard in custody/guardianship disputes is the welfare of the minor — classical age-based presumptions inform but do not automatically override this standard.
+- The overriding legal standard in custody/guardianship disputes is the welfare of the minor — classical age-based presumptions inform but do not automatically override this standard.
 - Non-Muslim personal-status matters are governed by separate statutes; do not apply MFLO or khula procedure to a non-Muslim litigant's case.
 
 ## Validation Checklist

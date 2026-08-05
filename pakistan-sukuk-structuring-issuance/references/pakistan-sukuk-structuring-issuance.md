@@ -4,7 +4,7 @@
 
 - SECP Sukuk issuance under the Structuring of Debt Securities Regulations, 2020 (successor/consolidation of the 2015 Issue of Sukuk Regulations) — SRO 15(I)/2017 notification page: `https://www.secp.gov.pk/document/s-r-o-15i-2017-structuring-of-debt-securities-regulations-2020/`
 - SECP list of corporate laws/regulations (for locating the current consolidated debt-securities/Sukuk regulation text): `https://www.secp.gov.pk/laws/regulations/`
-- SECP press release on Sukuk regulatory amendments to facilitate issuers: `https://www.secp.gov.pk/media-center/press-releases/secp-amending-sukuk-regulations-to-facilitate-issuers/`
+- SECP press release on Sukuk regulatory amendments to help issuers: `https://www.secp.gov.pk/media-center/press-releases/secp-amending-sukuk-regulations-to-facilitate-issuers/`
 - SECP page on Sukuks issued by Pakistan Domestic Sukuk Company Limited (a government-related Sukuk SPV precedent): `https://www.secp.gov.pk/document/sukuks-issued-by-pakistan-domestic-sukuk-company-limited/`
 - SBP GoP Ijara Sukuk (GIS) guidelines: `https://www.sbp.org.pk/dmmd/Guidelines/GOP-Ijara.pdf`
 - SBP GoP Ijara Sukuk auction summary (periodic auction results): `https://www.sbp.org.pk/ecodata/gop-ijara-summary.pdf`

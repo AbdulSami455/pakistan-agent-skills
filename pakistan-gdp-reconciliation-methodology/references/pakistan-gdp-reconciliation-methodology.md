@@ -26,7 +26,7 @@
 - Base year changed from 1999-2000 to 2005-06 in an earlier rebasing round.
 - Base year changed from 2005-06 to 2015-16, announced/implemented around January 2022, aligned to the 2008 System of National Accounts (SNA) framework. PBS conducted approximately 42 sector-specific benchmark studies to derive new weights from FY2015-16 data.
 - Effect: nominal GDP level was revised upward by roughly 11% relative to the old 2005-06-base series, reflecting both new weights and expanded coverage (not a pure re-indexing).
-- PBS has stated an intent to rebase national accounts (and separately, price statistics) on a roughly five-year cycle going forward, in line with international statistical practice — treat any specific future base year as needing confirmation against the current PBS release.
+- PBS has stated an intent to rebase national accounts (and separately, price statistics) on a roughly five-year cycle, in line with international statistical practice — treat any specific future base year as needing confirmation against the current PBS release.
 - Because rebasing changes sectoral weights and sometimes definitional coverage, backward-revised series (PBS publishes these for the years bridging old and new base) should be used for any multi-year comparison spanning a rebasing event, rather than naively linking growth rates computed on different bases.
 
 ## Quarterly Estimation ("Quarterisation") Methodology

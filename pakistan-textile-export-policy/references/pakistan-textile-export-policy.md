@@ -36,7 +36,7 @@
 
 ## TDAP's Textile-Sector Role
 
-- TDAP, under the Ministry of Commerce, undertakes textile-specific export promotion: facilitating/subsidizing participation in international textile and apparel trade fairs, organizing buyer-seller matchmaking events, publishing sector-specific market-access guidance, and providing input into national export strategy formulation for the textile sector.
+- TDAP, under the Ministry of Commerce, undertakes textile-specific export promotion: subsidizing participation in international textile and apparel trade fairs, organizing buyer-seller matchmaking events, publishing sector-specific market-access guidance, and providing input into national export strategy formulation for the textile sector.
 - TDAP's role is promotional/facilitative; it does not set customs duty/tax incentives (an FBR function) or the overarching Textile Policy (a Ministry of Commerce policy-setting function).
 
 ## Extraction Notes

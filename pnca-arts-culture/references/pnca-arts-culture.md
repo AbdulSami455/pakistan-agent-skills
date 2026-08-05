@@ -9,7 +9,7 @@
 ## Institutional Structure
 
 - PNCA operates under the National Heritage & Culture Division, Government of Pakistan, funded by the Ministry of Culture.
-- National Performing Arts Group (NPAG): presents music, theatre, and dance programming representing Pakistan's provincial/regional traditions.
+- National Performing Arts Group (NPAG): presents music, theatre, and dance programming drawn from Pakistan's provincial/regional traditions.
 - Puppet Theatre (established 1975): revives traditional folk string puppetry through regular shows, including for children and families.
 - Partners with provincial arts councils (Punjab, Sindh, Khyber Pakhtunkhwa, Balochistan, Gilgit-Baltistan, Azad Jammu & Kashmir) for regional cultural activity, without directly operating each province's programming itself.
 
