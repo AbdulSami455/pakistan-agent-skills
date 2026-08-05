@@ -14,7 +14,7 @@ The Payment Systems and Electronic Fund Transfers Act, 2007 (PSEFTA) gives the S
 
 ## RAAST
 
-- RAAST is SBP's centrally operated instant payment system, enabling real-time fund transfers between accounts held at different banks and Electronic Money Institutions using a simplified alias (such as a mobile number) mapped to the recipient's actual account/IBAN through a central addressing database, rather than requiring the sender to know full account details.
+- RAAST is SBP's centrally operated instant payment system, letting people make real-time fund transfers between accounts held at different banks and Electronic Money Institutions using a simplified alias (such as a mobile number) mapped to the recipient's actual account/IBAN through a central addressing database, rather than requiring the sender to know full account details.
 - Positioned as national digital-payments infrastructure supporting financial inclusion, RAAST's initial rollout emphasized person-to-person (P2P) transfers, with subsequent expansion toward person-to-merchant (P2M) use cases to support retail/merchant digital payment acceptance.
 - SBP has promoted standardized, interoperable QR code specifications to support P2M payment acceptance across different banks/EMIs/merchant acquirers, avoiding a fragmented provider-specific QR landscape.
 - Specific rollout-phase dates, fee policy, and adoption/volume statistics should be verified against current SBP press releases and the RAAST microsite, as these have evolved since initial launch.
