@@ -47,7 +47,7 @@ Use this skill for the **provincial** revenue-administration stack governing lan
 2. Determine whether the question concerns land administration/records, agricultural income tax, or stamp duty — these are related but distinct functions within the same provincial revenue apparatus.
 3. If FBR valuation is mentioned alongside provincial DC rates, keep the two systems explicitly separate and note which one applies to the tax being discussed (federal withholding/CGT vs. provincial stamp duty).
 4. Flag any specific digitization-program name (e.g., PLRA/ARMIS) as province-specific and not necessarily replicated identically in other provinces; verify current program name/status if citing an initiative outside Punjab.
-5. Note that agricultural income tax collection has historically been a comparatively small share of provincial own-source revenue relative to its assessed potential; avoid implying uniform robust enforcement across all provinces without verification.
+5. Note that agricultural income tax collection has historically been a comparatively small share of provincial own-source revenue relative to its assessed potential; avoid implying uniform strong enforcement across all provinces without verification.
 
 ## Technical Rules
 
@@ -71,7 +71,7 @@ Use this skill for the **provincial** revenue-administration stack governing lan
 - Describing agricultural income tax as a federal tax, when it is constitutionally and administratively a provincial subject.
 - Assuming Punjab's PLRA/ARMIS digitization model and branding applies identically in other provinces.
 - Conflating Ushr (Zakat Ordinance religious levy) with provincial agricultural income tax (a separate fiscal levy on the same general land base).
-- Assuming uniform, robust agricultural income tax enforcement across all provinces without verification; actual collection performance has historically varied and lagged assessed potential.
+- Assuming uniform, strong agricultural income tax enforcement across all provinces without verification; actual collection performance has historically varied and lagged assessed potential.
 
 ## Reference
 

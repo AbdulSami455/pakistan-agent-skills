@@ -38,7 +38,7 @@ Reports may also separately tabulate a category for **"others"** or workers whos
 
 ## Document Structure Notes
 
-- Reports typically present: (a) a historical cumulative summary table (often from 1971 or the earliest year BE&OE has consistent records), (b) year-specific tables broken down by country, occupation, and province, and (c) sometimes a narrative summary highlighting notable shifts.
+- Reports typically present: (a) a historical cumulative summary table (often from 1971 or the earliest year BE&OE has consistent records), (b) year-specific tables broken down by country, occupation, and province, and (c) sometimes a narrative summary noting notable shifts.
 - Some editions are branded as a "Yearbook" rather than "Labour Migration Report" — treat these as the same underlying statistical series unless the document explicitly distinguishes them.
 
 ## Extraction Notes

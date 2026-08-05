@@ -13,7 +13,7 @@ Use this skill for Pakistan's Federal Board of Intermediate and Secondary Educat
 
 - Scheme of Studies: subject lists and credit-hour/marks distribution per grade and stream (Science, Humanities/Arts, Commerce).
 - Syllabus and Student Learning Outcomes (SLOs): subject-wise curriculum content, aligned to the National Curriculum of Pakistan where applicable.
-- Model Question Papers: SLO-based sample papers illustrating question format and marks distribution for each subject.
+- Model Question Papers: SLO-based sample papers showing question format and marks distribution for each subject.
 - Past Papers / Old Question Papers: previous years' actual exam papers, useful for exam preparation.
 - Date Sheets and Notifications: exam schedules, registration deadlines, and result announcements.
 - Note: FBISE sets curriculum/exams for Islamabad and federal institutions; provincial boards (Lahore, Karachi, Peshawar, Quetta boards, etc.) each run separate, independently administered SSC/HSSC systems with their own syllabi and papers — do not assume FBISE's syllabus applies to a provincial board student.
